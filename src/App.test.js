@@ -1,41 +1,24 @@
 import { expect } from "code";
 import { shallow } from "enzyme";
 import React from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
-import Home from "./components/Home";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+import App from "./App";
 
 describe("Given App ", () => {
-  it("should redirect to Home", () => {
-    const component = shallow(
-      <Router>
-        <Route initialEntries={["/"]}>
-          <Home />
-        </Route>
-      </Router>
-    );
-    expect(component.find(Home)).to.have.length(1);
+  const component = shallow(<App />);
+  it("should exist", () => {
+    expect(component.find("div")).to.have.length(1);
   });
 
-  it("should redirect to Contact", () => {
-    const component = shallow(
-      <Router>
-        <Route initialEntries={["/contact"]}>
-          <Contact />
-        </Route>
-      </Router>
-    );
-    expect(component.find(Contact)).to.have.length(1);
+  it("should contain Home component", () => {
+    let Home = component.find("Home");
+    expect(Home).to.have.length(1);
   });
-  it("should redirect to Portfolio", () => {
-    const component = shallow(
-      <Router>
-        <Route initialEntries={["/portfolio"]}>
-          <Portfolio />
-        </Route>
-      </Router>
-    );
-    expect(component.find(Portfolio)).to.have.length(1);
+  it("should contain Home component", () => {
+    let Portfolio = component.find("Portfolio");
+    expect(Portfolio).to.have.length(1);
+  });
+  it("should contain Home component", () => {
+    let Contact = component.find("Contact");
+    expect(Contact).to.have.length(1);
   });
 });
