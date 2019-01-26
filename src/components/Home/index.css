@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 40px;
+  margin: 0;
+}
+
+#header {
+  text-align: center;
+  background-color: teal;
+  background-image: linear-gradient(to left, #00baba, #008b8b);
+  color: white;
+}
+
+#header .container p {
+  color: white;
+}
+
+#description {
+  text-align: center;
+}

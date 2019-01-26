@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-portfolio {
+  padding: 20px 0;
+  background-color: teal;
+  background-image: linear-gradient(to left, #00baba, #008b8b);
+  display: flex;
+}
+
+.container-fluid {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: 30px; */
+  justify-content: space-evenly;
+}
+
+.container-box {
+  background-color: gray;
+  width: 1px solid black;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 10px;
+}
