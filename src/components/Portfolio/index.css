@@ -20,10 +20,17 @@
 }
 
 .container-box {
-  background-color: gray;
+  background-color: white;
   width: 1px solid black;
   width: 250px;
   height: 250px;
   padding: 20px;
   margin: 10px;
+}
+
+.container-box img {
+  width: 100%;
+  height: auto;
+
+  margin-left: -20px;
 }
