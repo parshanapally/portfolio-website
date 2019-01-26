@@ -1,0 +1,11 @@
+#footer {
+  margin: auto;
+  border: 0;
+  background-color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+.container-fluid {
+  width: 100%;
+}
