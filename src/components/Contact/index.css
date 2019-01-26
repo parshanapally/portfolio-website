@@ -9,3 +9,15 @@
 .container-fluid {
   width: 100%;
 }
+
+.personal-info {
+  display: flex;
+}
+a {
+  padding: 20px;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}

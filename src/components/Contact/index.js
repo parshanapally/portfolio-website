@@ -1,5 +1,8 @@
 import React from "react";
 import "./index.css";
+import linkedinIcon from "../img/linkedin.png";
+import emailIcon from "../img/email-icon.png";
+import instagramIcon from "../img/instagram.png";
 
 const Contact = () => {
   return (
@@ -12,21 +15,21 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              linkedin
+              <img src={linkedinIcon} />
             </a>
             <a
               href="mailto:parshanap@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Email
+              <img src={emailIcon} />
             </a>
             <a
               href="https://www.instagram.com/thelifeofpooja/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              instagram
+              <img src={instagramIcon} />
             </a>
           </p>
         </div>
