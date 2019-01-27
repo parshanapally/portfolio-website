@@ -4,6 +4,7 @@ import mainBuzz from "../img/main-buzz.png";
 import pdfDoc from "../img/IM261pdf.pdf";
 import techAppDoc from "../img/tech-app.pdf";
 import techApp from "../img/tech-app.png";
+import pizza from "../img/pizza.PNG";
 
 const Portfolio = () => {
   return (
@@ -11,15 +12,22 @@ const Portfolio = () => {
       <div className="container-fluid">
         <div className="container-box">
           <a href={pdfDoc} download>
-            <img src={mainBuzz} />
+            <img src={mainBuzz} alt="main-buzz-app" />
+          </a>
+        </div>
+        <div className="container-box">
+          <a
+            href="https://parshanapally.github.io/pizza-react/"
+            target="_blank"
+          >
+            <img src={pizza} alt="pizza-react-app" />
           </a>
         </div>
         <div className="container-box">
           <a href={techAppDoc} download>
-            <img src={techApp} />
+            <img src={techApp} alt="tech-app" />
           </a>
         </div>
-        <div className="container-box">Project 3</div>
       </div>
     </div>
   );

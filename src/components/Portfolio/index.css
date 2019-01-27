@@ -29,8 +29,9 @@
 }
 
 .container-box img {
-  width: 100%;
-  height: auto;
+  width: 250px;
+  height: 250px;
 
-  margin-left: -20px;
+  margin-left: -40px;
+  margin-top: -20px;
 }

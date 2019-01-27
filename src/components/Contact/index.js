@@ -13,23 +13,14 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/pooja-arshanapally-521a50b7/"
               target="_blank"
-              rel="noopener noreferrer"
             >
-              <img src={linkedinIcon} />
+              <img src={linkedinIcon} alt="linkedIn" />
             </a>
-            <a
-              href="mailto:parshanap@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={emailIcon} />
+            <a href="mailto:parshanap@gmail.com" target="_blank">
+              <img src={emailIcon} alt="email" />
             </a>
-            <a
-              href="https://www.instagram.com/thelifeofpooja/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={instagramIcon} />
+            <a href="https://www.instagram.com/thelifeofpooja/" target="_blank">
+              <img src={instagramIcon} alt="instagram" />
             </a>
           </p>
         </div>
