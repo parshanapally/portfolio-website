@@ -13,6 +13,9 @@ const Portfolio = () => {
         <div className="container-box">
           <a href={pdfDoc} download>
             <img src={mainBuzz} alt="main-buzz-app" />
+            <div className="overlay">
+              <div className="text">Bridging the Digital Divide</div>
+            </div>
           </a>
         </div>
         <div className="container-box">
@@ -21,11 +24,17 @@ const Portfolio = () => {
             target="_blank"
           >
             <img src={pizza} alt="pizza-react-app" />
+            <div className="overlay">
+              <div className="text">Daily Dose of Pizzas</div>
+            </div>
           </a>
         </div>
         <div className="container-box">
           <a href={techAppDoc} download>
             <img src={techApp} alt="tech-app" />
+            <div className="overlay">
+              <div className="text">Tech App</div>
+            </div>
           </a>
         </div>
       </div>
