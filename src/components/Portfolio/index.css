@@ -15,8 +15,7 @@
   width: 500px;
   display: flex;
   flex-wrap: wrap;
-  /* margin-left: 30px; */
-  justify-content: space-evenly;
+  margin-left: 45px;
 }
 
 .container-box {
@@ -31,7 +30,6 @@
 .container-box img {
   width: 250px;
   height: 250px;
-
   margin-left: -40px;
   margin-top: -20px;
 }
@@ -63,3 +61,34 @@
 .container-box:hover .overlay {
   opacity: 1;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 320px) {
+  .container-fluid {
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .container-fluid {
+    margin-left: 60px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container-fluid {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container-fluid {
+    margin-left: 200px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .container-fluid {
+    margin-left: 45px;
+  }
+} */
