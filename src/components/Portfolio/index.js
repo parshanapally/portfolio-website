@@ -5,6 +5,7 @@ import pdfDoc from "../img/IM261pdf.pdf";
 import techAppDoc from "../img/tech-app.pdf";
 import techApp from "../img/tech-app.png";
 import pizza from "../img/pizza.PNG";
+import todo from "../img/todo-app.PNG";
 
 const Portfolio = () => {
   return (
@@ -34,6 +35,14 @@ const Portfolio = () => {
             <img src={techApp} alt="tech-app" />
             <div className="overlay">
               <div className="text">Tech App</div>
+            </div>
+          </a>
+        </div>
+        <div className="container-box">
+          <a href="https://parshanapally.github.io/todo-app/" target="_blank">
+            <img src={todo} alt="tech-app" />
+            <div className="overlay">
+              <div className="text">To Do App</div>
             </div>
           </a>
         </div>
