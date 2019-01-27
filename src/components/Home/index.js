@@ -10,7 +10,7 @@ const Home = () => {
       </div>
 
       <div id="description" className="container">
-        <h2>Designer - Developer - Innovator</h2>
+        <h2 className="word-spacing">Designer Developer Innovator</h2>
       </div>
     </div>
   );

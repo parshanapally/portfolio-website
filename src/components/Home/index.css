@@ -18,6 +18,12 @@ body {
   color: white;
 }
 
-#description {
+#description h2 {
+  color: #008b8b;
   text-align: center;
+  font-weight: lighter;
+}
+
+.word-spacing {
+  word-spacing: 20px;
 }
