@@ -24,9 +24,10 @@ const Contact = () => {
             </a>
           </p>
         </div>
+       
       </div>
     </div>
-  );
+  )
 };
 
 export default Contact;

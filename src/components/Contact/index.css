@@ -10,9 +10,7 @@
   width: 100%;
 }
 
-.personal-info {
-  display: flex;
-}
+
 a {
   padding: 20px;
 }
@@ -20,4 +18,30 @@ a {
 img {
   width: 60px;
   height: 60px;
+  
+}
+
+
+@media only screen and (min-width: 768px) {
+  .personal-info {
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .personal-info{
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .personal-info{
+    margin-left: 350px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .personal-info{
+    margin-left: 550px;
+  }
 }
