@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/tech-app.53ed5629.png"
   },
   {
-    "revision": "f80c32a5ce8175909818",
-    "url": "/portfolio-website/static/css/main.be089fe6.chunk.css"
+    "revision": "d0b8ba1a3cae0120c650",
+    "url": "/portfolio-website/static/css/main.fe0db5b7.chunk.css"
   },
   {
     "revision": "09b9c927743daeba3b88",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/tech-app.32f024d3.pdf"
   },
   {
-    "revision": "f80c32a5ce8175909818",
-    "url": "/portfolio-website/static/js/main.f80c32a5.chunk.js"
+    "revision": "d0b8ba1a3cae0120c650",
+    "url": "/portfolio-website/static/js/main.d0b8ba1a.chunk.js"
   },
   {
     "revision": "38b10925410b255ac57e9b192685514a",
@@ -52,11 +52,7 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/instagram.9344b4f0.png"
   },
   {
-    "revision": "278d0516c9b1b5c7b1f2feae6cdb9cd1",
-    "url": "/portfolio-website/static/media/pizza.278d0516.PNG"
-  },
-  {
-    "revision": "12d67b8ccbb608cc967b007346b60b79",
+    "revision": "05cd59f0da85a51296c1950e2947977f",
     "url": "/portfolio-website/index.html"
   }
 ];
