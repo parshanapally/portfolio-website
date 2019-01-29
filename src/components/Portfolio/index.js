@@ -6,6 +6,8 @@ import techAppDoc from "../img/tech-app.pdf";
 import techApp from "../img/tech-app.png";
 import pizza from "../img/pizza.PNG";
 import todo from "../img/todo-app.PNG";
+import rewardsDoc from "../img/Rewards.pdf";
+import rewards from "../img/rewards.png";
 
 const Portfolio = () => {
   return (
@@ -19,7 +21,7 @@ const Portfolio = () => {
             </div>
           </a>
         </div>
-        <div className="container-box">
+        {/* <div className="container-box">
           <a
             href="https://parshanapally.github.io/pizza-react/"
             target="_blank"
@@ -27,6 +29,15 @@ const Portfolio = () => {
             <img src={pizza} alt="pizza-react-app" />
             <div className="overlay">
               <div className="text">Daily Dose of Pizzas</div>
+            </div>
+          </a>
+        </div> */}
+
+        <div className="container-box">
+          <a href={rewardsDoc} download>
+            <img src={rewards} alt="pizza-react-app" />
+            <div className="overlay">
+              <div className="text">Rewards</div>
             </div>
           </a>
         </div>
