@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .container-portfolio {
@@ -39,8 +38,8 @@
   margin-bottom: 200px;
   margin-top: -254px;
   margin-left: -20px;
-  height: 250px;
-  width: 250px;
+  height: 290px;
+  width: 290px;
   opacity: 0;
   transition: 0.5s ease;
   background-color: black;
@@ -69,6 +68,12 @@
   }
 }
 
+@media only screen and (max-width: 425px) {
+  * {
+    box-sizing: border-box;
+  }
+}
+
 @media only screen and (min-width: 425px) {
   .container-fluid {
     margin-left: 60px;
@@ -87,13 +92,13 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .container-fluid{
+  .container-fluid {
     margin-left: 250px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .container-fluid{
+  .container-fluid {
     margin-left: 180px;
   }
 }
