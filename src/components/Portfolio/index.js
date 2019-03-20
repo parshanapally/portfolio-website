@@ -27,14 +27,8 @@ const Portfolio = () => {
           <div className="about-content">
             <h1>About</h1>
             <p>
-              My name is Pooja Arshanapally. I am a designer interested in a
-              multitude of arts such as UI/UX design, web design, graphic
-              design, video production and much more. I am passionate about
-              communicating through design to a variety of audiences. Due to my
-              coding experience, I am able to think logically at situations and
-              fix the problems. Because of my hobbies such as photography has
-              given me a keen eye when it comes to design. Both of these assets
-              has made me realize my true niche.
+              I am a designer passionate about communicating through design and
+              development to a variety of audiences.
             </p>
           </div>
         </div>
@@ -63,17 +57,24 @@ const Portfolio = () => {
           </div>
         </Link>
 
-        <Link to="/to-do-app">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://parshanapally.github.io/todo-app/"
+        >
           <div className="portfolio-item">
             <h1>To Do App</h1>
+            <p id="text-align">
+              The To-Do app is an outliner for managing to do lists.
+            </p>
           </div>
-        </Link>
+        </a>
 
-        <Link to="/tech-app">
+        {/* <Link to="/tech-app">
           <div className="portfolio-item">
             <h1>Tech App</h1>
           </div>
-        </Link>
+        </Link> */}
       </div>
 
       <div className="contact-page">

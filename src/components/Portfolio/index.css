@@ -137,9 +137,10 @@ nav .menu__item {
 }
 
 .portfolio-item p {
-  padding: 20px;
+  padding: 1.5rem;
   color: white;
   font-size: 20px;
+  line-height: 40px;
 }
 .portfolio-page a {
   text-decoration: none;
@@ -154,7 +155,7 @@ nav .menu__item {
   justify-content: center;
   background-color: black;
   position: absolute;
-  top: 2320px;
+  top: 1990px;
   right: 0;
   left: 0;
 }
@@ -177,20 +178,40 @@ a {
   text-decoration: none;
   color: white;
 }
+
+#text-align {
+  text-align: center;
+}
 @media (min-width: 320px) {
   html {
     font-size: 10px;
   }
+  .contact-page {
+    top: 1920px;
+  }
+}
+
+@media (max-width: 320px) {
 }
 
 @media (min-width: 375px) {
   html {
     font-size: 12px;
   }
+
+  .contact-page {
+    top: 1940px;
+  }
 }
 
 @media (min-width: 426px) {
   html {
     font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-page {
+    top: 1990px;
   }
 }
