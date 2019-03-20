@@ -7,8 +7,10 @@ const Portfolio = () => {
     <div className="portfolio-container">
       <nav className="nav-header">
         <div className="menu">
-          <div className="menu-item active">About</div>
-          <div className="menu-item">Portfolio</div>
+          <Link to="./">
+            {" "}
+            <div className="menu-item">Pooja Arshanapally</div>
+          </Link>
         </div>
       </nav>
 

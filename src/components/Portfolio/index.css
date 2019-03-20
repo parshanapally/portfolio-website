@@ -57,8 +57,15 @@ nav .menu {
   margin-right: 2rem;
   display: flex;
   flex: 1 1;
-  justify-content: flex-end;
+  justify-content: flex-start;
   color: white;
+}
+
+nav .menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
 }
 
 nav .menu__item {
@@ -98,8 +105,8 @@ nav .menu__item {
 }
 
 .about-page .about-wrapper .about-content p {
-  font-weight: 300;
   color: white;
+  font-size: 20px;
 }
 
 .portfolio-page {

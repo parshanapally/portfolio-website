@@ -1,38 +1,39 @@
-.first-item main .intro-wrapper {
+.second-item main .intro-wrapper {
   flex: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.first-item {
+.second-item {
   min-height: 500vh;
 }
 
-.first-item {
+.second-item {
   min-height: 20vh;
   flex: 0 1 auto;
   flex-direction: column;
 }
-.first-item,
-.first-item main {
+
+.second-item,
+.second-item main {
   display: flex;
   justify-content: center;
 }
 
-.first-item main {
+.second-item main {
   flex: 1 0 auto;
   flex-direction: column;
   padding: 3.25rem 1.5rem 1rem;
 }
 
-.first-item main .intro-wrapper {
+.second-item main .intro-wrapper {
   flex: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.first-item main .intro-wrapper > .intro-name {
+.second-item main .intro-wrapper > .intro-name {
   font-family: Reem Kufi, sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
@@ -40,35 +41,8 @@
   padding-bottom: 1rem;
 }
 
-.first-item.landing-page main .intro-wrapper > .tagline {
+.second-item.landing-page main .intro-wrapper > .tagline {
   font-size: 1.375rem;
   margin: 1.5rem 0;
   font-weight: 300;
-}
-
-.tagline img {
-  width: 800px;
-  height: auto;
-}
-.tagline p {
-  line-height: 40px;
-}
-
-.buisness-screens img {
-  width: 300px;
-}
-.buisness-screens {
-  padding-left: 5px;
-}
-
-.customer-screens img {
-  width: 300px;
-}
-.customer-screens {
-  padding-left: 5px;
-}
-
-.responsive {
-  max-width: 100%;
-  height: auto;
 }
