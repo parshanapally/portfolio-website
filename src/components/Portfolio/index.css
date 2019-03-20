@@ -169,6 +169,14 @@ nav .menu__item {
 .contact-page p {
   color: white;
 }
+.social-icons a {
+  padding: 0 0.625rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
 @media (min-width: 320px) {
   html {
     font-size: 10px;

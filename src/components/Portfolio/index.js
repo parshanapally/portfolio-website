@@ -1,6 +1,8 @@
 import React from "react";
 import "./index.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { FaInstagram, FaLinkedin, FaGit } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Portfolio = () => {
   return (
@@ -79,7 +81,36 @@ const Portfolio = () => {
           <div className="contact-content">
             <h1>Contact</h1>
             <p>
-              Feel free to contact me at<a>parshanap@gmail.com</a>
+              Feel free to contact me at{" "}
+              <a rel="noopener noreferrer" href="mailto:parshanap@gmail.com">
+                parshanap@gmail.com
+              </a>
+              <div className="social-icons">
+                <a rel="noopener noreferrer" href="mailto:parshanap@gmail.com">
+                  <MdEmail />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/pooja-arshanapally-521a50b7/"
+                >
+                  <FaLinkedin />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/parshanapally"
+                >
+                  <FaGit />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/thelifeofpooja/"
+                >
+                  <FaInstagram />
+                </a>
+              </div>
             </p>
           </div>
         </div>

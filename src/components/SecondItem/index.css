@@ -54,3 +54,8 @@
 .screens {
   padding-left: 5px;
 }
+
+.social-icons {
+  padding: 0.85rem 0;
+  font-size: 2rem;
+}
