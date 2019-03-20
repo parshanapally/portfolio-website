@@ -1,6 +1,10 @@
 import React from "react";
 import "./index.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import MainScreen from "../img/main-screen.png";
+import Search from "../img/screen.jpg";
+import FirstClick from "../img/first-click.png";
+import Mockups from "../img/mockups.png";
 const SecondItem = () => {
   return (
     <div className="second-item">
@@ -29,34 +33,55 @@ const SecondItem = () => {
 
             <h2>Iteration</h2>
             <p>
-              After interviewing local businesses along Main Street of Peoria,
-              IL, we designed user personas marketing to the ideal client. We
-              came to the conclusion that the two ideal clients would be a
-              business owner who wants to market their services or a college
-              student looking for a place to eat.
+              The process was first started through interviewing potential users
+              for the app. Our targeted users were people who were on a budget
+              and were frugal with their expenses. Based on the answers that was
+              gathered, personas were made to help create an understanding of
+              the user's desire and wants for this specific app.
             </p>
             <p>
-              Then we performed methods such card sorting to understand how the
-              client categorizes information and journey mapping and user flows
-              to understand the process of what the client goes through in order
-              to accomplish a goal.
+              Then I conducted more methods such as tree testing and card
+              sorting to create an efficient hierarchy of information according
+              to the user's perspective.
+            </p>
+            <p>
+              Through these methods, I was able to create task flows to help
+              structure the direction of how the user will go through the
+              application.
             </p>
 
             <h2>Wireframing</h2>
             <p>
-              We decided to create two different workflows of how a user would
-              naviagate this application, for the business owner and the college
-              student.{" "}
+              Then I started sketching mockups of the overall feel and layout of
+              the app.
             </p>
+
+            <div className="screens">
+              {" "}
+              <img src={Mockups} alt="mockups" className="responsive" />
+            </div>
 
             <h2>Testing</h2>
+
+            <div>
+              <img src={FirstClick} alt="first-click" className="responsive" />
+            </div>
             <p>
-              In order for this design meet the user goals, we created an
-              usability test to recieve input on how the real users interact
-              with the application.{" "}
+              In order to validate the user experience in my screens, I
+              conducted a usability test such as the First Click test through
+              Optimal Workshop. A user is given one of the screens and is given
+              a task to complete.The first click of the user of the given task
+              will be recorded. The first click test is important because it
+              enusres that the given task is clear and easy.
             </p>
 
-            {/* <h2>Prototype</h2> */}
+            <h2>Prototype</h2>
+
+            <div className="screens">
+              {" "}
+              <img src={MainScreen} alt="login" className="responsive" />
+              <img src={Search} alt="search" className="responsive" />
+            </div>
           </div>
         </div>
       </main>

@@ -70,7 +70,7 @@ const FirstItem = () => {
             <h2>Wireframing</h2>
             <p>
               We decided to create two different workflows of how a user would
-              naviagate this application, for the business owner and the college
+              navigate this application, for the business owner and the college
               student.{" "}
             </p>
             <div className="buisness-screens">
