@@ -189,10 +189,16 @@ a {
   .contact-page {
     top: 1920px;
   }
+  .portfolio-item p {
+    display: none;
+  }
 
   .about-page .about-wrapper .about-content p {
     line-height: 30px;
     font-size: 20px;
+  }
+  .portfolio-item h1 {
+    padding-top: 100px;
   }
 }
 
@@ -218,5 +224,12 @@ a {
 @media (min-width: 768px) {
   .contact-page {
     top: 1990px;
+  }
+  .portfolio-item p {
+    display: block;
+  }
+
+  .portfolio-item h1 {
+    padding-top: 20px;
   }
 }
