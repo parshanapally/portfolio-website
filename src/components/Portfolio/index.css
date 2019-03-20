@@ -189,6 +189,11 @@ a {
   .contact-page {
     top: 1920px;
   }
+
+  .about-page .about-wrapper .about-content p {
+    line-height: 30px;
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 320px) {
