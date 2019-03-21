@@ -24,6 +24,7 @@
   justify-content: center;
   text-align: center;
   color: black;
+  padding-top: 5rem;
 }
 
 .portfolio-container main .intro-wrapper > .intro-name {
@@ -239,6 +240,7 @@ a {
 @media (min-width: 606px) {
   .about-page {
     min-height: 45vh;
+    top: 420px;
   }
 }
 
