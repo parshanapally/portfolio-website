@@ -1,49 +1,127 @@
 import React from "react";
 import "./index.css";
-import mainBuzz from "../img/main-buzz.png";
-import pdfDoc from "../img/IM261pdf.pdf";
-import techAppDoc from "../img/tech-app.pdf";
-import techApp from "../img/tech-app.png";
-import todo from "../img/todo-app.PNG";
-import rewardsDoc from "../img/Rewards.pdf";
-import rewards from "../img/rewards.png";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { FaInstagram, FaLinkedin, FaGithub, FaDribbble } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Portfolio = () => {
   return (
-    <div className="container-portfolio">
-      <div className="container-fluid">
-        <div className="container-box">
-          <a href={pdfDoc} download>
-            <img src={mainBuzz} alt="main-buzz-app" />
-            <div className="overlay">
-              <div className="text">Bridging the Digital Divide</div>
-            </div>
-          </a>
+    <div className="portfolio-container">
+      <nav className="nav-header">
+        <div className="menu">
+          <Link to="./">
+            {" "}
+            <div className="menu-item">Pooja Arshanapally</div>
+          </Link>
         </div>
+      </nav>
 
-        <div className="container-box">
-          <a href={rewardsDoc} download>
-            <img src={rewards} alt="pizza-react-app" />
-            <div className="overlay">
-              <div className="text">Rewards</div>
-            </div>
-          </a>
+      <main>
+        <div className="intro-wrapper">
+          <div className="intro-name">Pooja Arshanapally</div>
+          <div className="tagline">UI/UX Designer | Developer</div>
         </div>
-        <div className="container-box">
-          <a href={techAppDoc} download>
-            <img src={techApp} alt="tech-app" />
-            <div className="overlay">
-              <div className="text">Tech App</div>
-            </div>
-          </a>
+      </main>
+      <div className="about-page">
+        <div className="about-wrapper">
+          <div className="about-content">
+            <h1>About</h1>
+            <p>
+              I am a designer passionate about communicating through design and
+              development to a variety of audiences.
+            </p>
+          </div>
         </div>
-        <div className="container-box">
-          <a href="https://parshanapally.github.io/todo-app/" target="_blank">
-            <img src={todo} alt="tech-app" />
-            <div className="overlay">
-              <div className="text">To Do App</div>
-            </div>
-          </a>
+      </div>
+
+      <div className="portfolio-page">
+        <h1>Portfolio</h1>
+        <Link to="/bridging-digital-divide">
+          <div className="portfolio-item">
+            <h1>Bridging the Digital Divide</h1>
+            <p>
+              A mobile application that provides a solution to bridging the
+              digital divide that Peoria’s small businesses experience when it
+              comes to competing with online retailers{" "}
+            </p>
+          </div>
+        </Link>
+
+        <Link to="/rewards">
+          <div className="portfolio-item">
+            <h1>Rewards</h1>
+            <p>
+              A mobile design that will help create customers manage their store
+              cards without the worry of losing the card.
+            </p>
+          </div>
+        </Link>
+
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://parshanapally.github.io/todo-app/"
+        >
+          <div className="portfolio-item">
+            <h1>To Do App</h1>
+            <p id="text-align">
+              The To-Do app is an app for writing simple to-do tasks.
+            </p>
+          </div>
+        </a>
+
+        {/* <Link to="/tech-app">
+          <div className="portfolio-item">
+            <h1>Tech App</h1>
+          </div>
+        </Link> */}
+      </div>
+
+      <div className="contact-page">
+        <div className="contact-wrapper">
+          <div className="contact-content">
+            <h1>Contact</h1>
+            <p>
+              Feel free to contact me at{" "}
+              <a rel="noopener noreferrer" href="mailto:parshanap@gmail.com">
+                parshanap@gmail.com
+              </a>
+              <div className="social-icons">
+                {/* <a rel="noopener noreferrer" href="mailto:parshanap@gmail.com">
+                  <MdEmail />
+                </a> */}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/pooja-arshanapally-521a50b7/"
+                >
+                  <FaLinkedin />
+                </a>
+
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://dribbble.com/parshanapally"
+                >
+                  <FaDribbble />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/parshanapally"
+                >
+                  <FaGithub />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/thelifeofpooja/"
+                >
+                  <FaInstagram />
+                </a>
+              </div>
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -1,99 +1,270 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.portfolio-container {
+  min-height: 30vh;
+  flex: 0 1 auto;
+  flex-direction: column;
 }
 
-.container-portfolio {
-  padding: 20px 0;
-  background-color: teal;
-  background-image: linear-gradient(to left, #00baba, #008b8b);
+.portfolio-container,
+.portfolio-container main {
   display: flex;
+  justify-content: center;
 }
 
-.container-fluid {
-  width: 500px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 45px;
-}
-
-.container-box {
-  background-color: white;
-  width: 1px solid black;
-  width: 250px;
-  height: 250px;
-  padding: 20px;
-  margin: 10px;
-}
-
-.container-box img {
-  width: 250px;
-  height: 250px;
-  margin-left: -40px;
-  margin-top: -20px;
-}
-
-.overlay {
-  position: absolute;
-  margin-bottom: 200px;
-  margin-top: -254px;
-  margin-left: -20px;
-  height: 250px;
-  width: 250px;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: black;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.portfolio-container main {
+  flex: 1 0 auto;
+  flex-direction: column;
+  padding: 3.25rem 1.5rem 1rem;
   text-align: center;
 }
 
-.container-box:hover .overlay {
-  opacity: 1;
+.portfolio-container main .intro-wrapper {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: black;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 320px) {
-  .container-fluid {
-    margin-left: 25px;
+.portfolio-container main .intro-wrapper > .intro-name {
+  font-family: Reem Kufi, sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4rem;
+  padding-bottom: 1rem;
+}
+
+.portfolio-container .landing-page main .intro-wrapper > .tagline {
+  font-size: 1.375rem;
+  margin: 1.5rem 0;
+  font-weight: 300;
+}
+
+.nav-header {
+  background-color: #00baba;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+nav .menu {
+  margin-right: 2rem;
+  display: flex;
+  flex: 1 1;
+  justify-content: flex-start;
+  color: white;
+}
+
+nav .menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+nav .menu__item {
+  padding: 0.25rem 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+}
+
+.about-page {
+  padding-top: 2rem;
+  min-height: 30vh;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  position: absolute;
+  top: 400px;
+  right: 0;
+  left: 0;
+}
+
+.about-page h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.about-page .about-wrapper .about-content {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.about-page .about-wrapper {
+  padding: 40px;
+  padding-bottom: 180px;
+}
+
+.about-page .about-wrapper .about-content p {
+  color: white;
+  font-size: 20px;
+}
+
+.portfolio-page {
+  min-height: 20vh;
+  padding: 35px;
+  background-color: #00baba;
+  position: absolute;
+  top: 830px;
+  right: 0;
+  left: 0;
+}
+
+.portfolio-page h1 {
+  font-size: 3rem;
+  color: white;
+  padding: 5px;
+}
+
+.portfolio-item {
+  background: black;
+  position: relative;
+  height: 300px;
+}
+
+.portfolio-item h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.portfolio-item p {
+  padding: 1.5rem;
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+}
+.portfolio-page a {
+  text-decoration: none;
+}
+
+.contact-page {
+  padding-top: 2rem;
+  min-height: 30vh;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  position: absolute;
+  top: 1990px;
+  right: 0;
+  left: 0;
+}
+.contact-wrapper {
+  padding: 40px;
+}
+.contact-page h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.contact-page p {
+  color: white;
+}
+.social-icons a {
+  padding: 0 0.625rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#text-align {
+  text-align: center;
+}
+@media (min-width: 320px) {
+  html {
+    font-size: 10px;
+  }
+  .contact-page {
+    top: 1920px;
+  }
+  .portfolio-item p {
+    display: none;
+  }
+
+  .about-page .about-wrapper .about-content p {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .portfolio-item h1 {
+    padding-top: 100px;
+  }
+
+  .contact-page p {
+    font-size: 20px;
+  }
+  .social-icons svg {
+    padding: 2rem 0;
+    font-size: 4rem;
   }
 }
 
-@media only screen and (min-width: 425px) {
-  .container-fluid {
-    margin-left: 60px;
+@media (min-width: 375px) {
+  html {
+    font-size: 12px;
   }
-}
-@media only screen and (min-width: 768px) {
-  .container-fluid {
-    margin-left: 100px;
+
+  .contact-page {
+    top: 1940px;
   }
 }
 
-@media only screen and (min-width: 992px) {
-  .container-fluid {
-    margin-left: 200px;
+@media (min-width: 426px) {
+  html {
+    font-size: 16px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  .container-fluid{
-    margin-left: 250px;
+@media (min-width: 425px) {
+  .about-page {
+    min-height: 35vh;
+  }
+  .contact-page {
+    top: 1990px;
   }
 }
 
-@media only screen and (min-width: 1440px) {
-  .container-fluid{
-    margin-left: 180px;
+@media (min-width: 606px) {
+  .about-page {
+    min-height: 45vh;
+  }
+}
+
+@media (min-width: 428px) {
+}
+@media (min-width: 768px) {
+  .contact-page {
+    top: 1990px;
+  }
+  .portfolio-item p {
+    display: block;
+  }
+
+  .portfolio-item h1 {
+    padding-top: 20px;
+  }
+
+  .social-icons svg {
+    padding: 1rem;
+
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .portfolio-item p {
+    text-align: center;
   }
 }

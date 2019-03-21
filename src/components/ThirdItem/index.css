@@ -1,0 +1,48 @@
+.third-item main .intro-wrapper {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.third-item {
+  min-height: 500vh;
+}
+
+.third-item {
+  min-height: 20vh;
+  flex: 0 1 auto;
+  flex-direction: column;
+}
+
+.third-item,
+.third-item main {
+  display: flex;
+  justify-content: center;
+}
+
+.third-item main {
+  flex: 1 0 auto;
+  flex-direction: column;
+  padding: 3.25rem 1.5rem 1rem;
+}
+
+.third-item main .intro-wrapper {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.third-item main .intro-wrapper > .intro-name {
+  font-family: Reem Kufi, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  padding-bottom: 1rem;
+}
+
+.third-item.landing-page main .intro-wrapper > .tagline {
+  font-size: 1.375rem;
+  margin: 1.5rem 0;
+  font-weight: 300;
+}
