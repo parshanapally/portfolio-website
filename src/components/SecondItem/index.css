@@ -59,3 +59,14 @@
   padding: 0.85rem 0;
   font-size: 2rem;
 }
+@media (min-width: 320px) {
+  .screens img {
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: 425px) {
+  .screens img {
+    margin-left: 0px;
+  }
+}

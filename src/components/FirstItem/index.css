@@ -72,3 +72,22 @@
   max-width: 100%;
   height: auto;
 }
+
+strong {
+  font-size: 15px;
+}
+
+@media (min-width: 320px) {
+  .tagline p {
+    font-size: 20px;
+  }
+  .tagline h2 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .tagline p {
+    padding-right: 1500px;
+  }
+}

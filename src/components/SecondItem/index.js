@@ -26,28 +26,19 @@ const SecondItem = () => {
             <p>
               Rewards is an application that will make shopping more convenient
               for customers. This mobile application will combine different
-              reward cards into one simple location. The purpose is to help
-              customers manage their store cards and not having to worry about
-              losing thier card.
+              reward cards into one simple location.
             </p>
 
             <h2>Iteration</h2>
             <p>
               The process was first started through interviewing potential users
-              for the app. Our targeted users were people who were on a budget
-              and were frugal with their expenses. Based on the answers that was
-              gathered, personas were made to help create an understanding of
-              the user's desire and wants for this specific app.
+              for the app. Personas were made based on our targeted users.
             </p>
             <p>
               Then I conducted more methods such as tree testing and card
               sorting to create an efficient hierarchy of information according
-              to the user's perspective.
-            </p>
-            <p>
-              Through these methods, I was able to create task flows to help
-              structure the direction of how the user will go through the
-              application.
+              to the user's perspective. Through these methods, I was able to
+              create task flows.
             </p>
 
             <h2>Wireframing</h2>
@@ -69,19 +60,30 @@ const SecondItem = () => {
             <p>
               In order to validate the user experience in my screens, I
               conducted a usability test such as the First Click test through
-              Optimal Workshop. A user is given one of the screens and is given
-              a task to complete.The first click of the user of the given task
-              will be recorded. The first click test is important because it
-              enusres that the given task is clear and easy.
+              Optimal Workshop.
             </p>
 
             <h2>Prototype</h2>
 
             <div className="screens">
               {" "}
-              <img src={MainScreen} alt="login" className="responsive" />
+              <img
+                src={MainScreen}
+                alt="login"
+                className="responsive"
+                id="align-content"
+              />
               <img src={Search} alt="search" className="responsive" />
             </div>
+
+            <h2>Conclusion</h2>
+
+            <p>
+              Overall, the process of designing this app was a success. During
+              the interview process, I gain more insight of different
+              functionalities that can improve this app. Hopefully, people will
+              be able to save money and time through the use of this app.
+            </p>
           </div>
         </div>
       </main>

@@ -32,19 +32,13 @@ const FirstItem = () => {
             <h2>Objective</h2>
 
             <p>
-              A class I took at Bradley University decided collaborate with the
-              Peoria Innovation Center. I was put into a team with students in
-              my class to help bridge the digital divide that Peoria’s small
-              businesses experience when it comes to competing with online
-              retailers.
+              During my years at Bradley University, I took an Interaction
+              Design class that collaborated with the Peoria Innovation Center.
+              I teamed up with two students in my class to help bridge the
+              digital divide between Peoria’s small businesses when it comes to
+              competing with online retailers.
             </p>
 
-            <p>
-              After meeting with local businesses on Main street, we have found
-              that many of them want to have an online presence because of the
-              possible increase in revenue and foot traffic, but are
-              struggling to get started.
-            </p>
             <p>
               After reviewing the findings and data collected, we have decided
               to make an application for community members to view business
@@ -57,21 +51,15 @@ const FirstItem = () => {
               After interviewing local businesses along Main Street of Peoria,
               IL, we designed user personas marketing to the ideal client. We
               came to the conclusion that the two ideal clients would be a
-              business owner who wants to market their services or a college
-              student looking for a place to eat.
-            </p>
-            <p>
-              Then we performed methods such card sorting to understand how the
-              client categorizes information and journey mapping and user flows
-              to understand the process of what the client goes through in order
-              to accomplish a goal.
+              business owner and a college student. Then I proceeded with card
+              sorting, journey mapping and user flows.
             </p>
 
             <h2>Wireframing</h2>
             <p>
               We decided to create two different workflows of how a user would
               navigate this application, for the business owner and the college
-              student.{" "}
+              student.
             </p>
             <div className="buisness-screens">
               {" "}
@@ -82,7 +70,7 @@ const FirstItem = () => {
                 className="responsive"
               />
               <p>
-                <strong>Business login and social media screen</strong>
+                <strong>Business login and Social Media screen</strong>
               </p>
             </div>
 
@@ -99,15 +87,16 @@ const FirstItem = () => {
                 className="responsive"
               />
               <p>
-                <strong>Customer main menu and social media screen</strong>
+                <strong>Customer Main Menu and Social Media screen</strong>
               </p>
             </div>
 
             <h2>Testing</h2>
             <p>
               In order for this design meet the user goals, we created an
-              usability test to recieve input on how the real users interact
-              with the application.{" "}
+              usability test to receive input on how the real users interact
+              with the application. The feedback was overall positive and the
+              users were able to navigate through the app.
             </p>
 
             <h2>Prototype</h2>
@@ -120,7 +109,7 @@ const FirstItem = () => {
                 className="responsive"
               />
               <p>
-                <strong>Business login and social media screen</strong>
+                <strong>Business Login and Social Media screen</strong>
               </p>
             </div>
 
@@ -137,9 +126,16 @@ const FirstItem = () => {
                 className="responsive"
               />
               <p>
-                <strong>Customer social media screen</strong>
+                <strong>Customer Social Media screen</strong>
               </p>
             </div>
+
+            <h2>Conclusion</h2>
+            <p>
+              The Peoria Innovation Center was satisfied with our findings and
+              believe that this app will help increase online sales for
+              businesses on Main Street.
+            </p>
           </div>
         </div>
       </main>

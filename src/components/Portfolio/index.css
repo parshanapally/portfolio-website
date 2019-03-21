@@ -1,5 +1,5 @@
 .portfolio-container {
-  min-height: 50vh;
+  min-height: 30vh;
   flex: 0 1 auto;
   flex-direction: column;
 }
@@ -23,6 +23,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  color: black;
 }
 
 .portfolio-container main .intro-wrapper > .intro-name {
@@ -84,7 +85,7 @@ nav .menu__item {
   justify-content: center;
   background-color: black;
   position: absolute;
-  top: 500px;
+  top: 400px;
   right: 0;
   left: 0;
 }
@@ -126,7 +127,7 @@ nav .menu__item {
 }
 
 .portfolio-item {
-  background: #002424;
+  background: black;
   position: relative;
   height: 300px;
 }
@@ -200,9 +201,14 @@ a {
   .portfolio-item h1 {
     padding-top: 100px;
   }
-}
 
-@media (max-width: 320px) {
+  .contact-page p {
+    font-size: 20px;
+  }
+  .social-icons svg {
+    padding: 2rem 0;
+    font-size: 4rem;
+  }
 }
 
 @media (min-width: 375px) {
@@ -221,6 +227,23 @@ a {
   }
 }
 
+@media (min-width: 425px) {
+  .about-page {
+    min-height: 35vh;
+  }
+  .contact-page {
+    top: 1990px;
+  }
+}
+
+@media (min-width: 606px) {
+  .about-page {
+    min-height: 45vh;
+  }
+}
+
+@media (min-width: 428px) {
+}
 @media (min-width: 768px) {
   .contact-page {
     top: 1990px;
@@ -231,5 +254,17 @@ a {
 
   .portfolio-item h1 {
     padding-top: 20px;
+  }
+
+  .social-icons svg {
+    padding: 1rem;
+
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .portfolio-item p {
+    text-align: center;
   }
 }

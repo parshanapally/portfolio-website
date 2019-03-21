@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { FaInstagram, FaLinkedin, FaGit } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaGithub, FaDribbble } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const Portfolio = () => {
@@ -65,7 +65,7 @@ const Portfolio = () => {
           <div className="portfolio-item">
             <h1>To Do App</h1>
             <p id="text-align">
-              The To-Do app is an outliner for managing to do lists.
+              The To-Do app is an app for writing simple to-do tasks.
             </p>
           </div>
         </a>
@@ -87,9 +87,9 @@ const Portfolio = () => {
                 parshanap@gmail.com
               </a>
               <div className="social-icons">
-                <a rel="noopener noreferrer" href="mailto:parshanap@gmail.com">
+                {/* <a rel="noopener noreferrer" href="mailto:parshanap@gmail.com">
                   <MdEmail />
-                </a>
+                </a> */}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -97,12 +97,20 @@ const Portfolio = () => {
                 >
                   <FaLinkedin />
                 </a>
+
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://dribbble.com/parshanapally"
+                >
+                  <FaDribbble />
+                </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/parshanapally"
                 >
-                  <FaGit />
+                  <FaGithub />
                 </a>
                 <a
                   target="_blank"
