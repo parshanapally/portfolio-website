@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/final-business-login.d771ac57.png"
   },
   {
-    "revision": "2e34871fb17784bd8601",
+    "revision": "35d33fa7cd2fd5aeb40c",
     "url": "/portfolio-website/static/css/main.a9324139.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/customer-brokentree.2ce2045f.png"
   },
   {
-    "revision": "2e34871fb17784bd8601",
-    "url": "/portfolio-website/static/js/main.2e34871f.chunk.js"
+    "revision": "35d33fa7cd2fd5aeb40c",
+    "url": "/portfolio-website/static/js/main.35d33fa7.chunk.js"
   },
   {
     "revision": "212c50b062c33236a66b73b89f2127ab",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/mockups.66955e03.png"
   },
   {
-    "revision": "d31e9ab1b6596623b09c4e3b94b002e7",
+    "revision": "533df4e1c1ef3673c8e2fbfda377c244",
     "url": "/portfolio-website/index.html"
   }
 ];
