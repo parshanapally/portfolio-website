@@ -265,6 +265,11 @@ a {
   }
 }
 
+@media (min-width: 1057px) {
+  .about-page {
+    top: 450px;
+  }
+}
 @media (min-width: 1440px) {
   .portfolio-item p {
     text-align: center;
