@@ -26,6 +26,10 @@
   color: black;
 }
 
+.skyline img {
+  opacity: 30%;
+}
+
 .portfolio-container main .intro-wrapper > .intro-name {
   font-family: Reem Kufi, sans-serif;
   font-size: 4rem;
@@ -127,11 +131,20 @@ nav .menu__item {
 }
 
 .portfolio-item {
-  background: black;
-  position: relative;
+  background: #00004e;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center bottom;
+  /* position: relative; */
   height: 300px;
 }
-
+.portfolio-item img {
+  width: 50%;
+  height: 100%;
+  display: block;
+  float: right;
+  opacity: 0.6;
+}
 .portfolio-item h1 {
   padding: 20px;
   text-align: center;
@@ -194,6 +207,10 @@ a {
     display: none;
   }
 
+  .portfolio-item img {
+    display: none;
+  }
+
   .about-page .about-wrapper .about-content p {
     line-height: 30px;
     font-size: 20px;
@@ -248,12 +265,9 @@ a {
   .contact-page {
     top: 1990px;
   }
-  .portfolio-item p {
-    display: block;
-  }
 
-  .portfolio-item h1 {
-    padding-top: 20px;
+  .portfolio-item img {
+    display: block;
   }
 
   .social-icons svg {
@@ -265,6 +279,7 @@ a {
 
 @media (min-width: 1440px) {
   .portfolio-item p {
+    display: block;
     text-align: center;
   }
 }

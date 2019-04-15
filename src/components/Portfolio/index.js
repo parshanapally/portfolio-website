@@ -3,6 +3,7 @@ import "./index.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaGithub, FaDribbble } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import peoriaSkyline from "../img/peoria-skyline.jpg";
 
 const Portfolio = () => {
   return (
@@ -39,6 +40,7 @@ const Portfolio = () => {
         <h1>Portfolio</h1>
         <Link to="/bridging-digital-divide">
           <div className="portfolio-item">
+            <img src={peoriaSkyline} alt="skyline" className="skyline-img" />
             <h1>Bridging the Digital Divide</h1>
             <p>
               A mobile application that provides a solution to bridging the
