@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaGithub, FaDribbble } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import peoriaSkyline from "../img/peoria-skyline.jpg";
-
+import money from "../img/coins.jpg";
+import question from "../img/question.jpg";
 const Portfolio = () => {
   return (
     <div className="portfolio-container">
@@ -52,6 +53,7 @@ const Portfolio = () => {
 
         <Link to="/rewards">
           <div className="portfolio-item">
+            <img src={money} alt="money" />
             <h1>Rewards</h1>
             <p>
               A mobile design that will help create customers manage their store
@@ -66,8 +68,9 @@ const Portfolio = () => {
           href="https://parshanapally.github.io/quote/"
         >
           <div className="portfolio-item">
+            <img src={question} alt="question" />
             <h1>Daily Dose of Quotes</h1>
-            <p id="text-align">Get your daily quote for the day!</p>
+            <p>Get your daily quote for the day!</p>
           </div>
         </a>
 

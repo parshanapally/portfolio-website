@@ -26,10 +26,6 @@
   color: black;
 }
 
-.skyline img {
-  opacity: 30%;
-}
-
 .portfolio-container main .intro-wrapper > .intro-name {
   font-family: Reem Kufi, sans-serif;
   font-size: 4rem;
@@ -133,10 +129,9 @@ nav .menu__item {
 .portfolio-item {
   background: #00004e;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-position: center bottom;
-  /* position: relative; */
   height: 300px;
+  max-width: 900px;
 }
 .portfolio-item img {
   width: 50%;
@@ -269,17 +264,40 @@ a {
   .portfolio-item img {
     display: block;
   }
-
+  .portfolio-item p {
+    display: block;
+    margin-top: -62px;
+    line-height: 30px;
+    padding: 20px;
+  }
+  .portfolio-item h1 {
+    text-align: left;
+    padding: 20px;
+  }
   .social-icons svg {
     padding: 1rem;
-
     font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .portfolio-item {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-item {
+    margin-left: 100px;
   }
 }
 
 @media (min-width: 1440px) {
   .portfolio-item p {
     display: block;
-    text-align: center;
+  }
+
+  .portfolio-item {
+    margin-left: 250px;
   }
 }
