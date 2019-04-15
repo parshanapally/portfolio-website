@@ -27,8 +27,9 @@ const Portfolio = () => {
           <div className="about-content">
             <h1>About</h1>
             <p>
-              I am a designer passionate about communicating through design and
-              development to a variety of audiences.
+              I am a designer with front-end knowledge who is passionate about
+              communicatiing design and development through a variety of
+              different audiences.
             </p>
           </div>
         </div>
@@ -60,13 +61,11 @@ const Portfolio = () => {
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href="https://parshanapally.github.io/todo-app/"
+          href="https://parshanapally.github.io/quote/"
         >
           <div className="portfolio-item">
-            <h1>To Do App</h1>
-            <p id="text-align">
-              The To-Do app is an app for writing simple to-do tasks.
-            </p>
+            <h1>Daily Dose of Quotes</h1>
+            <p id="text-align">Get your daily quote for the day!</p>
           </div>
         </a>
 
