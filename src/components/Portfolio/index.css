@@ -33,7 +33,7 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  color: black;
+  color: #024040;
   min-height: 20vh;
 }
 
@@ -94,7 +94,7 @@ nav .menu__item {
   flex: 0 1 auto;
   flex-direction: column;
   justify-content: center;
-  background-color: #00004e;
+  background-color: #024040;
 }
 
 .about-page h1 {
@@ -130,7 +130,7 @@ nav .menu__item {
 }
 
 .portfolio-item {
-  background: #00004e;
+  background: #047c7c;
   height: 300px;
   max-width: 900px;
   margin: 0 auto;
@@ -149,6 +149,7 @@ nav .menu__item {
 .portfolio-item h1 {
   padding: 20px;
   text-align: center;
+  font-size: 35px;
 }
 
 .portfolio-item p {
@@ -173,7 +174,7 @@ nav .menu__item {
   flex: 0 1 auto;
   flex-direction: column;
   justify-content: center;
-  background-color: #00004e;
+  background-color: #024040;
 }
 .contact-wrapper {
   padding: 40px;
