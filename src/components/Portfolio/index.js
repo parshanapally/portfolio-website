@@ -2,8 +2,10 @@ import React from "react";
 import "./index.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaGithub, FaDribbble } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import peoriaSkyline from "../img/peoria-skyline.jpg";
+import peoriaSkyline from "../img/final-business-login.png";
+import finalCustomer from "../img/final-customer-brokentree-2.png";
+import rewardsLogin from "../img/main-screen.png";
+import rewardsSearch from "../img/screen.jpg";
 import money from "../img/coins.jpg";
 import question from "../img/question.jpg";
 const Portfolio = () => {
@@ -41,7 +43,9 @@ const Portfolio = () => {
         <h1>Portfolio</h1>
         <Link to="/bridging-digital-divide">
           <div className="portfolio-item">
-            <img src={peoriaSkyline} alt="skyline" className="skyline-img" />
+            <img src={finalCustomer} alt="login" className="skyline-img" />
+            <img src={peoriaSkyline} alt="store" className="skyline-img" />
+
             <h1>Bridging the Digital Divide</h1>
             <p>
               A mobile application that provides a solution to bridging the
@@ -53,7 +57,9 @@ const Portfolio = () => {
 
         <Link to="/rewards">
           <div className="portfolio-item">
-            <img src={money} alt="money" />
+            <img src={rewardsSearch} alt="store" className="skyline-img" />
+            <img src={rewardsLogin} alt="login" className="skyline-img" />
+
             <h1>Rewards</h1>
             <p>
               A mobile design that will help create customers manage their store

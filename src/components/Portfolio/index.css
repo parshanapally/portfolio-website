@@ -83,7 +83,7 @@ nav .menu__item {
   flex: 0 1 auto;
   flex-direction: column;
   justify-content: center;
-  background-color: black;
+  background-color: #00004e;
   position: absolute;
   top: 400px;
   right: 0;
@@ -135,11 +135,9 @@ nav .menu__item {
   margin: 0 auto;
 }
 .portfolio-item img {
-  width: 50%;
   height: 100%;
   display: block;
   float: right;
-  opacity: 0.6;
 }
 .portfolio-item h1 {
   padding: 20px;
@@ -167,7 +165,7 @@ nav .menu__item {
   flex: 0 1 auto;
   flex-direction: column;
   justify-content: center;
-  background-color: black;
+  background-color: #00004e;
   position: absolute;
   top: 1990px;
   right: 0;
