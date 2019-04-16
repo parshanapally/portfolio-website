@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio-website/static/css/main.807caca7.chunk.css",
-  "main.js": "/portfolio-website/static/js/main.b55591f3.chunk.js",
-  "main.js.map": "/portfolio-website/static/js/main.b55591f3.chunk.js.map",
+  "main.css": "/portfolio-website/static/css/main.5c4c74b8.chunk.css",
+  "main.js": "/portfolio-website/static/js/main.3ed5fab9.chunk.js",
+  "main.js.map": "/portfolio-website/static/js/main.3ed5fab9.chunk.js.map",
   "static/js/1.7e8b962b.chunk.js": "/portfolio-website/static/js/1.7e8b962b.chunk.js",
   "static/js/1.7e8b962b.chunk.js.map": "/portfolio-website/static/js/1.7e8b962b.chunk.js.map",
   "runtime~main.js": "/portfolio-website/static/js/runtime~main.2b256896.js",
@@ -20,8 +20,8 @@
   "static/media/final-customer-brokentree.png": "/portfolio-website/static/media/final-customer-brokentree.37900cdc.png",
   "static/media/final-customer-brokentree-2.png": "/portfolio-website/static/media/final-customer-brokentree-2.8c3d2172.png",
   "static/media/mockups.png": "/portfolio-website/static/media/mockups.66955e03.png",
-  "static/css/main.807caca7.chunk.css.map": "/portfolio-website/static/css/main.807caca7.chunk.css.map",
+  "static/css/main.5c4c74b8.chunk.css.map": "/portfolio-website/static/css/main.5c4c74b8.chunk.css.map",
   "index.html": "/portfolio-website/index.html",
-  "precache-manifest.ea596521e433e8980abd6da325f23323.js": "/portfolio-website/precache-manifest.ea596521e433e8980abd6da325f23323.js",
+  "precache-manifest.01556d0ce43608a45238f4b41c7096b7.js": "/portfolio-website/precache-manifest.01556d0ce43608a45238f4b41c7096b7.js",
   "service-worker.js": "/portfolio-website/service-worker.js"
 }
