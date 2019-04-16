@@ -72,6 +72,7 @@ const Portfolio = () => {
             <h1>Daily Dose of Quotes</h1>
             <p>Get your daily quote for the day!</p>
           </div>
+          {/* <div className="overlay">Text</div> */}
         </a>
 
         {/* <Link to="/tech-app">

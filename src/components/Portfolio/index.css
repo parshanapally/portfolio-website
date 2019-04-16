@@ -132,6 +132,7 @@ nav .menu__item {
   background-position: center bottom;
   height: 300px;
   max-width: 900px;
+  margin: 0 auto;
 }
 .portfolio-item img {
   width: 50%;
@@ -150,6 +151,10 @@ nav .menu__item {
   color: white;
   font-size: 20px;
   line-height: 40px;
+}
+
+.portfolio-item .overlay {
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .portfolio-page a {
   text-decoration: none;
@@ -280,7 +285,7 @@ a {
   }
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
   .portfolio-item {
     margin-left: 50px;
   }
@@ -290,14 +295,14 @@ a {
   .portfolio-item {
     margin-left: 100px;
   }
-}
+} */
 
 @media (min-width: 1440px) {
   .portfolio-item p {
     display: block;
   }
 
-  .portfolio-item {
+  /* .portfolio-item {
     margin-left: 250px;
-  }
+  } */
 }
