@@ -6,8 +6,8 @@ import peoriaSkyline from "../img/final-business-login.png";
 import finalCustomer from "../img/final-customer-brokentree-2.png";
 import rewardsLogin from "../img/main-screen.png";
 import rewardsSearch from "../img/screen.jpg";
-import money from "../img/coins.jpg";
 import quote from "../img/quote.PNG";
+
 const Portfolio = () => {
   return (
     <div className="portfolio-container">
@@ -32,7 +32,7 @@ const Portfolio = () => {
             <h1>About</h1>
             <p>
               I am a designer with front-end knowledge who is passionate about
-              communicatiing design and development through a variety of
+              communicating design and development through a variety of
               different audiences.
             </p>
           </div>
@@ -56,6 +56,7 @@ const Portfolio = () => {
         </Link>
 
         <Link to="/rewards">
+          {" "}
           <div className="portfolio-item">
             <img src={rewardsSearch} alt="store" className="skyline-img" />
             <img src={rewardsLogin} alt="login" className="skyline-img" />
@@ -80,14 +81,7 @@ const Portfolio = () => {
               A single page app built in React that displays a list of quotes.
             </p>
           </div>
-          {/* <div className="overlay">Text</div> */}
         </a>
-
-        {/* <Link to="/tech-app">
-          <div className="portfolio-item">
-            <h1>Tech App</h1>
-          </div>
-        </Link> */}
       </div>
 
       <div className="contact-page">
@@ -100,9 +94,6 @@ const Portfolio = () => {
                 parshanap@gmail.com
               </a>
               <div className="social-icons">
-                {/* <a rel="noopener noreferrer" href="mailto:parshanap@gmail.com">
-                  <MdEmail />
-                </a> */}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"

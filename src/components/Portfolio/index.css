@@ -135,6 +135,12 @@ nav .menu__item {
   max-width: 900px;
   margin: 0 auto;
 }
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0 0.8em 1em -0.4em black;
+  transform: translateY(-0.25em);
+}
 .portfolio-item img {
   height: 100%;
   display: block;
@@ -155,8 +161,9 @@ nav .menu__item {
 .portfolio-item .overlay {
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.portfolio-page a {
+.portfolio-page a:hover {
   text-decoration: none;
+  box-shadow: 5px 10px;
 }
 
 .contact-page {
@@ -241,7 +248,6 @@ a {
     display: block;
     margin-top: -62px;
     line-height: 30px;
-    padding: 20px;
   }
   .portfolio-item h1 {
     text-align: left;

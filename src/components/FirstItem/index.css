@@ -68,18 +68,9 @@
   padding-left: 5px;
 }
 
-.center-paragraph {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.center-paragraph .responsive {
+.responsive {
   max-width: 100%;
   height: auto;
-}
-
-.intro-name {
-  text-align: center;
 }
 
 strong {
