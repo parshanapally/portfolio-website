@@ -30,6 +30,7 @@ body {
   justify-content: center;
   text-align: center;
   color: black;
+  min-height: 35vh;
 }
 
 .portfolio-container main .intro-wrapper > .intro-name {
