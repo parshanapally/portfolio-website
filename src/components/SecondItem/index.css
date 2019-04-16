@@ -8,6 +8,11 @@
   min-height: 500vh;
 }
 
+.center-paragraph {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .second-item {
   min-height: 20vh;
   flex: 0 1 auto;

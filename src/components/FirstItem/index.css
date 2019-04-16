@@ -4,14 +4,15 @@
   flex-direction: column;
   justify-content: center;
 }
-.first-item {
-  min-height: 500vh;
-}
 
 .first-item {
   min-height: 20vh;
   flex: 0 1 auto;
   flex-direction: column;
+}
+
+.first-item h1 {
+  text-align: center;
 }
 .first-item,
 .first-item main {
