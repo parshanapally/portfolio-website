@@ -1,23 +1,43 @@
 self.__precacheManifest = [
   {
-    "revision": "d771ac57b99b43d70a1bbaeb3fbc6c59",
-    "url": "/portfolio-website/static/media/final-business-login.d771ac57.png"
+    "revision": "9e6b8028991ca8be346e9fb67873f075",
+    "url": "/portfolio-website/static/media/persona.9e6b8028.png"
   },
   {
-    "revision": "030e246ad9e7f30c6c8b",
-    "url": "/portfolio-website/static/css/main.4728b347.chunk.css"
+    "revision": "9572f6e18b5303a63d0b",
+    "url": "/portfolio-website/static/css/main.807caca7.chunk.css"
   },
   {
-    "revision": "f07163e57a934fab196b",
-    "url": "/portfolio-website/static/js/1.f07163e5.chunk.js"
+    "revision": "7e8b962b5022c187df7e",
+    "url": "/portfolio-website/static/js/1.7e8b962b.chunk.js"
   },
   {
     "revision": "2b256896c0c48cf1d86c",
     "url": "/portfolio-website/static/js/runtime~main.2b256896.js"
   },
   {
-    "revision": "9e6b8028991ca8be346e9fb67873f075",
-    "url": "/portfolio-website/static/media/persona.9e6b8028.png"
+    "revision": "d771ac57b99b43d70a1bbaeb3fbc6c59",
+    "url": "/portfolio-website/static/media/final-business-login.d771ac57.png"
+  },
+  {
+    "revision": "8c3d21729862e8e6c3c92be32f4927b2",
+    "url": "/portfolio-website/static/media/final-customer-brokentree-2.8c3d2172.png"
+  },
+  {
+    "revision": "16702545362d6c2ddf063a609f9cefbf",
+    "url": "/portfolio-website/static/media/main-screen.16702545.png"
+  },
+  {
+    "revision": "432fb40e09c5372779f68573bca46783",
+    "url": "/portfolio-website/static/media/screen.432fb40e.jpg"
+  },
+  {
+    "revision": "ae0f4333ac3a6f9bd38d74a29e27c76c",
+    "url": "/portfolio-website/static/media/quote.ae0f4333.PNG"
+  },
+  {
+    "revision": "9572f6e18b5303a63d0b",
+    "url": "/portfolio-website/static/js/main.9572f6e1.chunk.js"
   },
   {
     "revision": "3e0b7ee65b8a9f3707456763909f28bd",
@@ -36,28 +56,12 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/customer-brokentree.2ce2045f.png"
   },
   {
-    "revision": "030e246ad9e7f30c6c8b",
-    "url": "/portfolio-website/static/js/main.030e246a.chunk.js"
-  },
-  {
     "revision": "212c50b062c33236a66b73b89f2127ab",
     "url": "/portfolio-website/static/media/final-buisness-socialmedia.212c50b0.png"
   },
   {
     "revision": "37900cdc3dff8a901915bb296c015850",
     "url": "/portfolio-website/static/media/final-customer-brokentree.37900cdc.png"
-  },
-  {
-    "revision": "8c3d21729862e8e6c3c92be32f4927b2",
-    "url": "/portfolio-website/static/media/final-customer-brokentree-2.8c3d2172.png"
-  },
-  {
-    "revision": "16702545362d6c2ddf063a609f9cefbf",
-    "url": "/portfolio-website/static/media/main-screen.16702545.png"
-  },
-  {
-    "revision": "432fb40e09c5372779f68573bca46783",
-    "url": "/portfolio-website/static/media/screen.432fb40e.jpg"
   },
   {
     "revision": "44ff8bdc1b97e82c0996d1812ac61a30",
@@ -68,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/mockups.66955e03.png"
   },
   {
-    "revision": "0a62297aa3fcba29eb5c5584e802e802",
+    "revision": "895810d4f0aa95ca982012b5463b6e46",
     "url": "/portfolio-website/index.html"
   }
 ];
