@@ -12,7 +12,7 @@ const SecondItem = () => {
       <div className="center-paragraph">
         <nav className="nav-header">
           <div className="menu">
-            <Link to="./">
+            <Link to="/portfolio-website/">
               <div className="menu-item">Pooja Arshanapally</div>
             </Link>
           </div>
