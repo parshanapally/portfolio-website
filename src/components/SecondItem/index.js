@@ -64,8 +64,8 @@ const SecondItem = () => {
                 />
               </div>
               <p>
-                In order to validate the user experience in my screens, I
-                conducted a usability test such as the First Click test through
+                In order to validate the user's experience in my screens, I
+                conducted an usability test such as the First Click test through
                 Optimal Workshop.
               </p>
 
@@ -86,9 +86,9 @@ const SecondItem = () => {
 
               <p>
                 Overall, the process of designing this app was a success. During
-                the interview process, I gain more insight of different
-                functionalities that can improve this app. Hopefully, people
-                will be able to save money and time through the use of this app.
+                the interview process, I gained insight of different
+                functionalities that I can improve for this app. Hopefully,
+                people will be able to save money and time through this app.
               </p>
             </div>
           </div>

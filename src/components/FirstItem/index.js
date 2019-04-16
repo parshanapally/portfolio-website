@@ -51,10 +51,10 @@ const FirstItem = () => {
               <img src={persona} alt="persona" className="responsive" />
               <p>
                 After interviewing local businesses along Main Street of Peoria,
-                IL, we designed user personas marketing to the ideal client. We
-                came to the conclusion that the two ideal clients would be a
-                business owner and a college student. Then I proceeded with card
-                sorting, journey mapping and user flows.
+                we designed user personas marketing to the ideal client. We came
+                to the conclusion that the two ideal clients would be a business
+                owner and a college student. Then I proceeded with card sorting,
+                journey mapping and user flows.
               </p>
               <h2>Wireframing</h2>
               <p>
@@ -95,7 +95,7 @@ const FirstItem = () => {
               {" "}
               <h2>Testing</h2>
               <p>
-                In order for this design meet the user goals, we created an
+                In order for this design to meet the user goals, we created an
                 usability test to receive input on how the real users interact
                 with the application. The feedback was overall positive and the
                 users were able to navigate through the app.
