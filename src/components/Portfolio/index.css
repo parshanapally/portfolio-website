@@ -4,6 +4,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .portfolio-container {
   min-height: 30vh;
   flex: 0 1 auto;
@@ -30,7 +34,7 @@ body {
   justify-content: center;
   text-align: center;
   color: black;
-  min-height: 35vh;
+  min-height: 20vh;
 }
 
 .portfolio-container main .intro-wrapper > .intro-name {
@@ -84,8 +88,8 @@ nav .menu__item {
 }
 
 .about-page {
-  min-height: 10vh;
-
+  min-height: 20vh;
+  padding: 5px;
   display: flex;
   flex: 0 1 auto;
   flex-direction: column;
@@ -104,7 +108,7 @@ nav .menu__item {
 }
 
 .about-page .about-wrapper {
-  padding: 19px;
+  padding: 30px;
 }
 
 .about-page .about-wrapper .about-content p {
@@ -127,8 +131,6 @@ nav .menu__item {
 
 .portfolio-item {
   background: #00004e;
-  background-repeat: no-repeat;
-  background-position: center bottom;
   height: 300px;
   max-width: 900px;
   margin: 0 auto;
@@ -159,7 +161,7 @@ nav .menu__item {
 
 .contact-page {
   padding-top: 2rem;
-  min-height: 30vh;
+  min-height: 20vh;
   display: flex;
   flex: 0 1 auto;
   flex-direction: column;
@@ -177,8 +179,9 @@ nav .menu__item {
 .contact-page p {
   color: white;
 }
-.social-icons a {
-  padding: 0 0.625rem;
+
+.social-icons svg {
+  margin-right: 1.85rem;
 }
 
 a {
@@ -193,9 +196,7 @@ a {
   html {
     font-size: 10px;
   }
-  .contact-page {
-    top: 1920px;
-  }
+
   .portfolio-item p {
     display: none;
   }
@@ -216,18 +217,13 @@ a {
     font-size: 20px;
   }
   .social-icons svg {
-    padding: 2rem 0;
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
 @media (min-width: 375px) {
   html {
     font-size: 12px;
-  }
-
-  .contact-page {
-    top: 1940px;
   }
 }
 
@@ -237,26 +233,7 @@ a {
   }
 }
 
-@media (min-width: 425px) {
-  .about-page {
-    min-height: 35vh;
-  }
-  .contact-page {
-    top: 1990px;
-  }
-}
-
-@media (min-width: 606px) {
-  .about-page {
-    min-height: 45vh;
-  }
-}
-
 @media (min-width: 768px) {
-  .contact-page {
-    top: 1990px;
-  }
-
   .portfolio-item img {
     display: block;
   }
@@ -270,17 +247,8 @@ a {
     text-align: left;
     padding: 20px;
   }
-  .social-icons svg {
-    padding: 1rem;
-    font-size: 2.8rem;
-  }
 }
 
-@media (min-width: 816px) {
-  .portfolio-page {
-    top: 819px;
-  }
-}
 @media (min-width: 1440px) {
   .portfolio-item p {
     display: block;
