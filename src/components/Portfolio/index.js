@@ -7,7 +7,7 @@ import finalCustomer from "../img/final-customer-brokentree-2.png";
 import rewardsLogin from "../img/main-screen.png";
 import rewardsSearch from "../img/screen.jpg";
 import money from "../img/coins.jpg";
-import question from "../img/question.jpg";
+import quote from "../img/quote.PNG";
 const Portfolio = () => {
   return (
     <div className="portfolio-container">
@@ -74,9 +74,11 @@ const Portfolio = () => {
           href="https://parshanapally.github.io/quote/"
         >
           <div className="portfolio-item">
-            <img src={question} alt="question" />
+            <img src={quote} alt="question" />
             <h1>Daily Dose of Quotes</h1>
-            <p>Get your daily quote for the day!</p>
+            <p>
+              A single page app built in React that displays a list of quotes.
+            </p>
           </div>
           {/* <div className="overlay">Text</div> */}
         </a>
