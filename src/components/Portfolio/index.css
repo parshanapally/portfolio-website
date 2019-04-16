@@ -285,24 +285,8 @@ a {
   }
 }
 
-/* @media (min-width: 1000px) {
-  .portfolio-item {
-    margin-left: 50px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .portfolio-item {
-    margin-left: 100px;
-  }
-} */
-
 @media (min-width: 1440px) {
   .portfolio-item p {
     display: block;
   }
-
-  /* .portfolio-item {
-    margin-left: 250px;
-  } */
 }
