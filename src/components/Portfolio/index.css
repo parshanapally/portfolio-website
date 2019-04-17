@@ -99,7 +99,7 @@ nav .menu__item {
 
 .about-page h1 {
   font-size: 3rem;
-  color: white;
+  color: #eaeaea;
 }
 
 .about-page .about-wrapper .about-content {
@@ -112,7 +112,7 @@ nav .menu__item {
 }
 
 .about-page .about-wrapper .about-content p {
-  color: white;
+  color: #eaeaea;
   font-size: 20px;
 }
 
@@ -125,7 +125,7 @@ nav .menu__item {
 
 .portfolio-page h1 {
   font-size: 3rem;
-  color: white;
+  color: #eaeaea;
   padding: 5px;
 }
 
@@ -154,7 +154,7 @@ nav .menu__item {
 
 .portfolio-item p {
   padding: 1.5rem;
-  color: white;
+  color: #eaeaea;
   font-size: 20px;
   line-height: 40px;
 }
@@ -181,11 +181,11 @@ nav .menu__item {
 }
 .contact-page h1 {
   font-size: 3rem;
-  color: white;
+  color: #eaeaea;
 }
 
 .contact-page p {
-  color: white;
+  color: #eaeaea;
 }
 
 .social-icons svg {
@@ -194,7 +194,7 @@ nav .menu__item {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #eaeaea;
 }
 
 #text-align {

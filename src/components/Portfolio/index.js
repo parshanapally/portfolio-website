@@ -13,7 +13,7 @@ const Portfolio = () => {
     <div className="portfolio-container">
       <nav className="nav-header">
         <div className="menu">
-          <Link to="/portfolio-website/">
+          <Link to="/">
             {" "}
             <div className="menu-item">Pooja Arshanapally</div>
           </Link>
