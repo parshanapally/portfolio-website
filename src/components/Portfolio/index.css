@@ -133,12 +133,13 @@ nav .menu__item {
   height: 300px;
   max-width: 900px;
   margin: 0 auto;
+  transition: 0.5s;
 }
 
 .portfolio-item:hover,
 .portfolio-item:focus {
-  box-shadow: 0 0.8em 1em -0.4em black;
-  transform: translateY(-0.25em);
+  box-shadow: 0 0.8em 1em -0.4em #013535;
+  transform: translateY(-0.8em);
 }
 .portfolio-item img {
   height: 100%;
