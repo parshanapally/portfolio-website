@@ -5,18 +5,14 @@ import MainScreen from "../img/main-screen.png";
 import Search from "../img/screen.jpg";
 import FirstClick from "../img/first-click.png";
 import Mockups from "../img/mockups.png";
+import NavHeader from "../NavHeader";
 const SecondItem = () => {
   return (
     <div className="second-item">
       {" "}
       <div className="center-paragraph">
-        <nav className="nav-header">
-          <div className="menu">
-            <Link to="/portfolio-website/">
-              <div className="menu-item">Pooja Arshanapally</div>
-            </Link>
-          </div>
-        </nav>
+        <NavHeader />
+
         <main>
           <div className="intro-wrapper">
             <div className="intro-name">

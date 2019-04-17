@@ -1,0 +1,32 @@
+.nav-header {
+  background-color: #00baba;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+nav .menu {
+  margin-right: 2rem;
+  display: flex;
+  flex: 1 1;
+  justify-content: flex-end;
+  color: white;
+}
+
+nav .menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.menu-item {
+  font-size: 12px;
+}

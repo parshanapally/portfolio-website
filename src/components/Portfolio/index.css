@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "futura-pt", sans-serif;
+  font-family: "Century Gothic", sans-serif;
 }
 
 * {
@@ -52,46 +52,6 @@ body {
   font-size: 2rem;
 }
 
-.nav-header {
-  background-color: #00baba;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  top: 0;
-  width: 100%;
-  height: 3rem;
-  display: flex;
-  align-items: center;
-}
-
-nav .menu {
-  margin-right: 2rem;
-  display: flex;
-  flex: 1 1;
-  justify-content: flex-start;
-  color: white;
-}
-
-nav .menu a {
-  text-decoration: none;
-  color: white;
-  font-weight: bolder;
-  padding: 10px;
-}
-
-nav .menu__item {
-  padding: 0.25rem 0;
-  font-size: 2.25rem;
-  font-weight: 400;
-  border-bottom: 2px solid transparent;
-}
-
-.menu-item {
-  font-size: 12px;
-}
-
 .about-page {
   min-height: 20vh;
   padding: 5px;
@@ -114,6 +74,7 @@ nav .menu__item {
 
 .about-page .about-wrapper {
   padding: 30px;
+  margin: 0 auto;
 }
 
 .about-page .about-wrapper .about-content p {
@@ -183,7 +144,11 @@ nav .menu__item {
   background-color: #024040;
 }
 .contact-wrapper {
-  padding: 40px;
+  padding: 30px;
+}
+
+.contact-page .contact-wrapper {
+  margin: 0 10px;
 }
 .contact-page h1 {
   font-size: 4rem;
@@ -215,14 +180,6 @@ a {
     font-size: 10px;
   }
 
-  /* .portfolio-item p {
-    display: none;
-  }
-
-  .portfolio-item img {
-    display: none;
-  } */
-
   .about-page .about-wrapper .about-content p {
     line-height: 30px;
     font-size: 20px;
@@ -237,9 +194,6 @@ a {
   .social-icons svg {
     font-size: 3rem;
   }
-}
-
-@media (min-width: 375px) {
 }
 
 @media (max-width: 414px) {
@@ -267,6 +221,17 @@ a {
 @media (max-width: 451px) {
   .portfolio-container main .intro-wrapper > .intro-name {
     font-size: 4rem;
+  }
+
+  .skyline-img:nth-child(2) {
+    width: 31%;
+    height: auto;
+    margin-top: 70px;
+    margin-right: 100px;
+  }
+
+  .portfolio-page .portfolio-item p {
+    display: none;
   }
 }
 @media (max-width: 495px) {
@@ -314,8 +279,8 @@ a {
 
 @media (max-width: 767px) {
   .portfolio-item p {
-    margin-top: -62px;
     line-height: 30px;
+    margin-top: -48px;
   }
   .portfolio-item h1 {
     text-align: left;
@@ -325,7 +290,7 @@ a {
 
 @media (min-width: 768px) {
   .portfolio-item p {
-    margin-top: -62px;
+    margin-top: -48px;
     line-height: 30px;
   }
   .portfolio-item h1 {
@@ -334,11 +299,6 @@ a {
   }
 }
 
-@media (min-width: 1057px) {
-  .about-page {
-    top: 450px;
-  }
-}
 @media (min-width: 1440px) {
   .portfolio-item p {
     display: block;

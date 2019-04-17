@@ -10,19 +10,13 @@ import prototypeLogin from "../img/final-business-login.png";
 import prototypeSocialMedia from "../img/final-buisness-socialmedia.png";
 import prototypeStore from "../img/final-customer-brokentree.png";
 import prototypeStoreSecondScreen from "../img/final-customer-brokentree-2.png";
+import NavHeader from "../NavHeader";
 
 const FirstItem = () => {
   return (
     <div className="first-item">
       {" "}
-      <nav className="nav-header">
-        <div className="menu">
-          <Link to="/portfolio-website/">
-            {" "}
-            <div className="menu-item">Pooja Arshanapally</div>
-          </Link>
-        </div>
-      </nav>
+      <NavHeader />
       <main>
         <div className="intro-wrapper">
           <div className="intro-name">

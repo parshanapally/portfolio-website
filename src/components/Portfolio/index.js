@@ -7,18 +7,12 @@ import finalCustomer from "../img/final-customer-brokentree-2.png";
 import rewardsLogin from "../img/main-screen.png";
 import rewardsSearch from "../img/screen.jpg";
 import quote from "../img/quote.PNG";
+import NavHeader from "../NavHeader";
 
 const Portfolio = () => {
   return (
     <div className="portfolio-container">
-      <nav className="nav-header">
-        <div className="menu">
-          <Link to="/">
-            {" "}
-            <div className="menu-item">Pooja Arshanapally</div>
-          </Link>
-        </div>
-      </nav>
+      <NavHeader />
 
       <main>
         <div className="intro-wrapper">
