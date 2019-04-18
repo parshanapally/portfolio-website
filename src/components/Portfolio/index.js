@@ -35,26 +35,33 @@ const Portfolio = () => {
         <h1>Portfolio</h1>
         <Link to="/bridging-digital-divide">
           <div className="portfolio-item">
-            <img src={mainBuzz} alt="main-buzz" className="skyline-img" />
+            <div className="portfolio-description">
+              {" "}
+              <h1>Bridging the Digital Divide</h1>
+              <p>
+                A mobile application that provides a solution to bridging the
+                digital divide that Peoria’s small businesses experience when it
+                comes to competing with online retailers{" "}
+              </p>
+            </div>
 
-            <h1>Bridging the Digital Divide</h1>
-            <p>
-              A mobile application that provides a solution to bridging the
-              digital divide that Peoria’s small businesses experience when it
-              comes to competing with online retailers{" "}
-            </p>
+            <img src={mainBuzz} alt="main-buzz" className="skyline-img" />
           </div>
         </Link>
 
         <Link to="/rewards">
           {" "}
           <div className="portfolio-item">
+            <div className="portfolio-description">
+              {" "}
+              <h1>Rewards</h1>
+              <p>
+                A mobile design that will help create customers manage their
+                store cards without the worry of losing the card.
+              </p>
+            </div>
+
             <img src={rewards} alt="rewards" className="skyline-img" />
-            <h1>Rewards</h1>
-            <p>
-              A mobile design that will help create customers manage their store
-              cards without the worry of losing the card.
-            </p>
           </div>
         </Link>
 
@@ -64,11 +71,15 @@ const Portfolio = () => {
           href="https://parshanapally.github.io/quote/"
         >
           <div className="portfolio-item">
+            <div className="portfolio-description">
+              {" "}
+              <h1>Daily Dose of Quotes</h1>
+              <p>
+                A single page app built in React that displays a list of quotes.
+              </p>
+            </div>
+
             <img src={quote} alt="question" className="skyline-img" />
-            <h1>Daily Dose of Quotes</h1>
-            <p>
-              A single page app built in React that displays a list of quotes.
-            </p>
           </div>
         </a>
       </div>

@@ -101,6 +101,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   transition: 0.5s;
+  display: flex;
 }
 
 .portfolio-item:hover,
@@ -110,8 +111,10 @@ body {
 }
 .portfolio-item img {
   height: 100%;
-  display: block;
-  float: right;
+  /* flex-direction: row; */
+  /* display: flex;
+  justify-content: flex-end; */
+  /* float: right; */
 }
 .portfolio-item h1 {
   padding: 20px;
@@ -131,7 +134,10 @@ body {
 }
 .portfolio-page a:hover {
   text-decoration: none;
-  box-shadow: 5px 10px;
+}
+
+.portfolio-page a {
+  padding: 10px;
 }
 
 .contact-page {
