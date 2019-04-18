@@ -111,10 +111,6 @@ body {
 }
 .portfolio-item img {
   height: 100%;
-  /* flex-direction: row; */
-  /* display: flex;
-  justify-content: flex-end; */
-  /* float: right; */
 }
 .portfolio-item h1 {
   padding: 20px;
@@ -178,14 +174,11 @@ a {
   text-align: center;
 }
 
-.skyline-img:nth-child(2) {
+.skyline-img {
   margin-left: 10px;
 }
-@media (min-width: 320px) {
-  html {
-    font-size: 10px;
-  }
 
+@media (max-width: 320px) {
   .about-page .about-wrapper .about-content p {
     line-height: 30px;
     font-size: 20px;
@@ -204,7 +197,7 @@ a {
 
 @media (max-width: 414px) {
   .portfolio-page .portfolio-item h1 {
-    font-size: 15px;
+    font-size: 1rem;
   }
 
   .portfolio-page .portfolio-item p {
@@ -229,13 +222,6 @@ a {
     font-size: 4rem;
   }
 
-  .skyline-img:nth-child(2) {
-    width: 31%;
-    height: auto;
-    margin-top: 70px;
-    margin-right: 100px;
-  }
-
   .portfolio-page .portfolio-item p {
     display: none;
   }
@@ -257,19 +243,47 @@ a {
   }
 }
 
-@media (max-width: 647px) {
-  .portfolio-item img:nth-child(1) {
+@media (max-width: 596px) {
+  .portfolio-description {
+    position: absolute;
+  }
+  .portfolio-item {
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio-page .portfolio-item h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .portfolio-page .portfolio-item p {
     display: none;
   }
+  .portfolio-item img {
+    margin-top: 88px;
+    margin-left: 4px;
+    height: 66%;
+  }
+}
+
+@media (max-width: 647px) {
+  .portfolio-page .portfolio-item h1 {
+    font-size: 25px;
+  }
+  .portfolio-page .portfolio-item p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 660px) {
   .portfolio-page .portfolio-item h1 {
     font-size: 25px;
   }
 
   .portfolio-page .portfolio-item p {
-    padding: 30px 15px;
+    font-size: 15px;
   }
 }
-
 @media (max-width: 730px) {
   .portfolio-item p {
     margin-top: -62px;
@@ -285,8 +299,9 @@ a {
 
 @media (max-width: 767px) {
   .portfolio-item p {
-    line-height: 30px;
     margin-top: -48px;
+    line-height: 25px;
+    font-size: 17px;
   }
   .portfolio-item h1 {
     text-align: left;

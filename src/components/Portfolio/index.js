@@ -35,6 +35,7 @@ const Portfolio = () => {
         <h1>Portfolio</h1>
         <Link to="/bridging-digital-divide">
           <div className="portfolio-item">
+            {" "}
             <div className="portfolio-description">
               {" "}
               <h1>Bridging the Digital Divide</h1>
@@ -44,7 +45,6 @@ const Portfolio = () => {
                 comes to competing with online retailers{" "}
               </p>
             </div>
-
             <img src={mainBuzz} alt="main-buzz" className="skyline-img" />
           </div>
         </Link>
