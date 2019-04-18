@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import persona from "../img/persona.png";
 import wireframeLogin from "../img/business-login.png";
 import wireFrameSocialMedia from "../img/business-socialmedia.png";

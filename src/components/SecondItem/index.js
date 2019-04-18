@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import MainScreen from "../img/main-screen.png";
 import Search from "../img/screen.jpg";
 import FirstClick from "../img/first-click.png";

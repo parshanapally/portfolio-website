@@ -2,11 +2,9 @@ import React from "react";
 import "./index.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaGithub, FaDribbble } from "react-icons/fa";
-import peoriaSkyline from "../img/final-business-login.png";
-import finalCustomer from "../img/final-customer-brokentree-2.png";
-import rewardsLogin from "../img/main-screen.png";
-import rewardsSearch from "../img/screen.jpg";
-import quote from "../img/quote.PNG";
+import mainBuzz from "../img/main-buzz.png";
+import rewards from "../img/rewards.png";
+import quote from "../img/main-quote.png";
 import NavHeader from "../NavHeader";
 
 const Portfolio = () => {
@@ -37,8 +35,7 @@ const Portfolio = () => {
         <h1>Portfolio</h1>
         <Link to="/bridging-digital-divide">
           <div className="portfolio-item">
-            <img src={finalCustomer} alt="login" className="skyline-img" />
-            <img src={peoriaSkyline} alt="store" className="skyline-img" />
+            <img src={mainBuzz} alt="main-buzz" className="skyline-img" />
 
             <h1>Bridging the Digital Divide</h1>
             <p>
@@ -52,9 +49,7 @@ const Portfolio = () => {
         <Link to="/rewards">
           {" "}
           <div className="portfolio-item">
-            <img src={rewardsSearch} alt="store" className="skyline-img" />
-            <img src={rewardsLogin} alt="login" className="skyline-img" />
-
+            <img src={rewards} alt="rewards" className="skyline-img" />
             <h1>Rewards</h1>
             <p>
               A mobile design that will help create customers manage their store
@@ -69,7 +64,7 @@ const Portfolio = () => {
           href="https://parshanapally.github.io/quote/"
         >
           <div className="portfolio-item">
-            <img src={quote} alt="question" />
+            <img src={quote} alt="question" className="skyline-img" />
             <h1>Daily Dose of Quotes</h1>
             <p>
               A single page app built in React that displays a list of quotes.
