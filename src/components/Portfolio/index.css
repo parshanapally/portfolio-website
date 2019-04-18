@@ -38,7 +38,7 @@ body {
 }
 
 .portfolio-container main .intro-wrapper > .intro-name {
-  font-size: 6rem;
+  font-size: 60px;
   font-weight: 700;
   line-height: 4rem;
   padding-bottom: 1rem;
@@ -49,7 +49,7 @@ body {
   font-weight: 300;
 }
 .tagline {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .about-page {
@@ -63,7 +63,7 @@ body {
 }
 
 .about-page h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #eaeaea;
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 .portfolio-page h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #eaeaea;
   padding: 5px;
 }
@@ -153,7 +153,7 @@ body {
   margin: 0 10px;
 }
 .contact-page h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #eaeaea;
 }
 
@@ -177,7 +177,16 @@ a {
 .skyline-img {
   margin-left: 10px;
 }
+@media (min-width: 320px) {
+  .portfolio-container main .intro-wrapper > .intro-name {
+    font-size: 35px;
+    line-height: 2.5rem;
+  }
 
+  .tagline {
+    font-size: 1rem;
+  }
+}
 @media (max-width: 320px) {
   .about-page .about-wrapper .about-content p {
     line-height: 30px;
@@ -192,6 +201,12 @@ a {
   }
   .social-icons svg {
     font-size: 3rem;
+  }
+}
+
+@media (min-width: 414px) {
+  .tagline {
+    font-size: 1.2rem;
   }
 }
 
@@ -217,13 +232,23 @@ a {
   }
 }
 
-@media (max-width: 451px) {
+@media (min-width: 451px) {
   .portfolio-container main .intro-wrapper > .intro-name {
-    font-size: 4rem;
+    font-size: 37px;
+    line-height: 2.5rem;
   }
+}
 
+@media (max-width: 451px) {
   .portfolio-page .portfolio-item p {
     display: none;
+  }
+}
+
+@media (min-width: 495px) {
+  .portfolio-container main .intro-wrapper > .intro-name {
+    font-size: 40px;
+    line-height: 2.5rem;
   }
 }
 @media (max-width: 495px) {
@@ -237,9 +262,10 @@ a {
   }
 }
 
-@media (max-width: 533px) {
+@media (min-width: 596px) {
   .portfolio-container main .intro-wrapper > .intro-name {
-    font-size: 5rem;
+    font-size: 50px;
+    line-height: 2.5rem;
   }
 }
 
@@ -265,6 +291,13 @@ a {
   }
 }
 
+@media (min-width: 647px) {
+  .portfolio-container main .intro-wrapper > .intro-name {
+    font-size: 55px;
+    line-height: 2.5rem;
+  }
+}
+
 @media (max-width: 647px) {
   .portfolio-page .portfolio-item h1 {
     font-size: 25px;
@@ -284,6 +317,7 @@ a {
     font-size: 15px;
   }
 }
+
 @media (max-width: 730px) {
   .portfolio-item p {
     margin-top: -62px;
