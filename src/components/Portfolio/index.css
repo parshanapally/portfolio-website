@@ -38,9 +38,8 @@ body {
 }
 
 .portfolio-container main .intro-wrapper > .intro-name {
-  font-size: 60px;
+  font-size: 35px;
   font-weight: 700;
-  line-height: 4rem;
   padding-bottom: 1rem;
 }
 
@@ -49,7 +48,7 @@ body {
   font-weight: 300;
 }
 .tagline {
-  font-size: 1.5rem;
+  font-size: 17px;
 }
 
 .about-page {
@@ -63,7 +62,7 @@ body {
 }
 
 .about-page h1 {
-  font-size: 3rem;
+  font-size: 35px;
   color: #eaeaea;
 }
 
@@ -74,12 +73,11 @@ body {
 
 .about-page .about-wrapper {
   padding: 30px;
-  margin: 0 auto;
 }
 
 .about-page .about-wrapper .about-content p {
   color: #eaeaea;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .portfolio-page {
@@ -90,18 +88,17 @@ body {
 }
 
 .portfolio-page h1 {
-  font-size: 3rem;
+  font-size: 35px;
   color: #eaeaea;
   padding: 5px;
 }
 
 .portfolio-item {
   background: #047c7c;
-  height: 300px;
+  height: 250px;
   max-width: 900px;
   margin: 0 auto;
   transition: 0.5s;
-  display: flex;
 }
 
 .portfolio-item:hover,
@@ -110,12 +107,13 @@ body {
   transform: translateY(-0.8em);
 }
 .portfolio-item img {
-  height: 100%;
+  height: 66%;
+  margin-left: 25px;
 }
 .portfolio-item h1 {
-  padding: 20px;
+  font-size: 20px;
+  padding-top: 15px;
   text-align: center;
-  font-size: 35px;
 }
 
 .portfolio-item p {
@@ -123,6 +121,7 @@ body {
   color: #eaeaea;
   font-size: 20px;
   line-height: 40px;
+  display: none;
 }
 
 .portfolio-item .overlay {
@@ -153,7 +152,7 @@ body {
   margin: 0 10px;
 }
 .contact-page h1 {
-  font-size: 3rem;
+  font-size: 35px;
   color: #eaeaea;
 }
 
@@ -174,10 +173,12 @@ a {
   text-align: center;
 }
 
-.skyline-img {
-  margin-left: 10px;
+.main-buzz {
+  padding-bottom: 20px;
+  padding-left: 10px;
 }
-@media (min-width: 320px) {
+
+/* @media (min-width: 320px) {
   .portfolio-container main .intro-wrapper > .intro-name {
     font-size: 35px;
     line-height: 2.5rem;
@@ -186,25 +187,9 @@ a {
   .tagline {
     font-size: 1rem;
   }
-}
-@media (max-width: 320px) {
-  .about-page .about-wrapper .about-content p {
-    line-height: 30px;
-    font-size: 20px;
-  }
-  .portfolio-item h1 {
-    padding-top: 100px;
-  }
+} */
 
-  .contact-page p {
-    font-size: 20px;
-  }
-  .social-icons svg {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 414px) {
+/* @media (min-width: 414px) {
   .tagline {
     font-size: 1.2rem;
   }
@@ -289,6 +274,9 @@ a {
     margin-left: 4px;
     height: 66%;
   }
+  .about-page .about-wrapper .about-content p {
+    line-height: 35px;
+  }
 }
 
 @media (min-width: 647px) {
@@ -358,4 +346,4 @@ a {
   .portfolio-item p {
     display: block;
   }
-}
+} */

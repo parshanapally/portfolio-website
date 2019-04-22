@@ -45,7 +45,7 @@ const Portfolio = () => {
                 comes to competing with online retailers{" "}
               </p>
             </div>
-            <img src={mainBuzz} alt="main-buzz" className="skyline-img" />
+            <img src={mainBuzz} alt="main-buzz" className="main-buzz" />
           </div>
         </Link>
 
