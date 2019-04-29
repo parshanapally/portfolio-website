@@ -9,13 +9,13 @@ import prototypeLogin from "../img/final-business-login.png";
 import prototypeSocialMedia from "../img/final-buisness-socialmedia.png";
 import prototypeStore from "../img/final-customer-brokentree.png";
 import prototypeStoreSecondScreen from "../img/final-customer-brokentree-2.png";
-import NavHeader from "../NavHeader";
+import NavHeaderItem from "../NavHeaderItem";
 
 const FirstItem = () => {
   return (
     <div className="first-item">
       {" "}
-      <NavHeader />
+      <NavHeaderItem />
       <main>
         <div className="intro-wrapper">
           <div className="intro-name">

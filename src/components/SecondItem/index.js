@@ -4,13 +4,13 @@ import MainScreen from "../img/main-screen.png";
 import Search from "../img/screen.jpg";
 import FirstClick from "../img/first-click.png";
 import Mockups from "../img/mockups.png";
-import NavHeader from "../NavHeader";
+import NavHeaderItem from "../NavHeaderItem";
 const SecondItem = () => {
   return (
     <div className="second-item">
       {" "}
       <div className="center-paragraph">
-        <NavHeader />
+        <NavHeaderItem />
 
         <main>
           <div className="intro-wrapper">

@@ -31,7 +31,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="portfolio-page">
+      <div className="portfolio-page" id="portfolio">
         <h1>Portfolio</h1>
         <Link to="/bridging-digital-divide">
           <div className="portfolio-item">
