@@ -1,6 +1,6 @@
 .nav-header-item {
   background-color: #00baba;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
@@ -11,7 +11,8 @@
   height: 4rem;
   display: flex;
   align-items: center;
-  border-bottom: black 1px;
+  border-bottom: 0.5px solid #024040;
+  z-index: 1;
 }
 
 .nav-header-item nav .menu {

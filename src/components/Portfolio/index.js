@@ -12,13 +12,13 @@ const Portfolio = () => {
     <div className="portfolio-container">
       <NavHeader />
 
-      <main>
-        <div className="intro-wrapper" id="intro">
+      <main id="about">
+        <div className="intro-wrapper">
           <div className="intro-name">Pooja Arshanapally</div>
           <div className="tagline">UI/UX Designer | Developer</div>
         </div>
       </main>
-      <div className="about-page" id="about">
+      <div className="about-page">
         <div className="about-wrapper">
           <div className="about-content">
             <h1>About</h1>
