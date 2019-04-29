@@ -13,7 +13,7 @@ const Portfolio = () => {
       <NavHeader />
 
       <main>
-        <div className="intro-wrapper">
+        <div className="intro-wrapper" id="intro">
           <div className="intro-name">Pooja Arshanapally</div>
           <div className="tagline">UI/UX Designer | Developer</div>
         </div>

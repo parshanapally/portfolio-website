@@ -1,6 +1,7 @@
 .nav-header {
   background-color: #00baba;
   position: absolute;
+  z-index: 1;
   top: 0;
   right: 0;
   left: 0;
@@ -10,6 +11,7 @@
   height: 4rem;
   display: flex;
   align-items: center;
+  border-bottom: black 1px;
 }
 
 nav .menu {
