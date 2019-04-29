@@ -239,12 +239,18 @@ a {
 }
 
 @media (min-width: 768px) {
+  .portfolio-item h1 {
+    font-size: 25px;
+  }
   .portfolio-item img {
     height: 100%;
   }
 
   .main-buzz {
     padding-bottom: 0px;
+  }
+  .portfolio-container main .intro-wrapper > .intro-name {
+    font-size: 40px;
   }
 }
 
@@ -254,5 +260,9 @@ a {
   }
   .portfolio-description {
     padding-right: 0px;
+  }
+
+  .portfolio-container main .intro-wrapper > .intro-name {
+    font-size: 50px;
   }
 }

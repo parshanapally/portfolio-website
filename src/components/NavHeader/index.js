@@ -7,17 +7,17 @@ const NavHeader = () => {
     <nav className="nav-header">
       <div className="menu">
         <Scrollspy
-          items={["about-page", "portfolio-page", "contact-page"]}
+          items={["about", "portfolio-page", "contact"]}
           currentClassName="is-current"
         />
         <Link to="/">
           {" "}
           <div className="menu-item">Home</div>
         </Link>
-        <a href="#about-page" alt="about">
+        <a href="#about" alt="about">
           <div className="menu-item">About</div>
         </a>
-        <a href="#contact-page" alt="contact">
+        <a href="#contact" alt="contact">
           <div className="menu-item">Contact</div>
         </a>
       </div>

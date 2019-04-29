@@ -18,7 +18,7 @@ const Portfolio = () => {
           <div className="tagline">UI/UX Designer | Developer</div>
         </div>
       </main>
-      <div className="about-page">
+      <div className="about-page" id="about">
         <div className="about-wrapper">
           <div className="about-content">
             <h1>About</h1>
@@ -84,7 +84,7 @@ const Portfolio = () => {
         </a>
       </div>
 
-      <div className="contact-page">
+      <div className="contact-page" id="contact">
         <div className="contact-wrapper">
           <div className="contact-content">
             <h1>Contact</h1>
