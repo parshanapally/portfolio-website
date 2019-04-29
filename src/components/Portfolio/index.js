@@ -61,7 +61,7 @@ const Portfolio = () => {
               </p>
             </div>
 
-            <img src={rewards} alt="rewards" className="skyline-img" />
+            <img src={rewards} alt="rewards" className="rewards" />
           </div>
         </Link>
 
@@ -79,7 +79,7 @@ const Portfolio = () => {
               </p>
             </div>
 
-            <img src={quote} alt="question" className="skyline-img" />
+            <img src={quote} alt="question" className="quotes" />
           </div>
         </a>
       </div>

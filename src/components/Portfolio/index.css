@@ -108,19 +108,15 @@ body {
 }
 .portfolio-item img {
   height: 66%;
-  margin-left: 25px;
+  margin-left: 40px;
 }
 .portfolio-item h1 {
   font-size: 20px;
-  padding-top: 15px;
   text-align: center;
 }
 
 .portfolio-item p {
-  padding: 1.5rem;
   color: #eaeaea;
-  font-size: 20px;
-  line-height: 40px;
   display: none;
 }
 
@@ -178,172 +174,85 @@ a {
   padding-left: 10px;
 }
 
-/* @media (min-width: 320px) {
-  .portfolio-container main .intro-wrapper > .intro-name {
-    font-size: 35px;
-    line-height: 2.5rem;
-  }
-
-  .tagline {
-    font-size: 1rem;
-  }
-} */
-
-/* @media (min-width: 414px) {
-  .tagline {
-    font-size: 1.2rem;
+@media (min-width: 347px) {
+  .portfolio-item img {
+    height: 66%;
+    margin-left: 50px;
   }
 }
 
-@media (max-width: 414px) {
-  .portfolio-page .portfolio-item h1 {
-    font-size: 1rem;
-  }
-
-  .portfolio-page .portfolio-item p {
-    font-size: 10px;
-    line-height: 25px;
+@media (min-width: 375px) {
+  .portfolio-item img {
+    margin-left: 65px;
   }
 }
 
-@media (max-width: 426px) {
-  .portfolio-item h1 {
-    font-size: 20px;
-  }
-
-  .portfolio-page .portfolio-item p {
-    font-size: 10px;
-    line-height: 25px;
+@media (min-width: 425px) {
+  .portfolio-item img {
+    height: 70%;
+    margin-left: 70px;
   }
 }
 
-@media (min-width: 451px) {
-  .portfolio-container main .intro-wrapper > .intro-name {
-    font-size: 37px;
-    line-height: 2.5rem;
+@media (min-width: 475px) {
+  .portfolio-item img {
+    height: 70%;
+    margin-left: 100px;
   }
 }
 
-@media (max-width: 451px) {
-  .portfolio-page .portfolio-item p {
-    display: none;
+@media (min-width: 500px) {
+  .portfolio-item img {
+    height: 75%;
+    margin-left: 120px;
   }
 }
 
-@media (min-width: 495px) {
-  .portfolio-container main .intro-wrapper > .intro-name {
-    font-size: 40px;
-    line-height: 2.5rem;
-  }
-}
-@media (max-width: 495px) {
-  .portfolio-page .portfolio-item h1 {
-    font-size: 23px;
-  }
-
-  .portfolio-page .portfolio-item p {
-    font-size: 15px;
-    line-height: 25px;
-  }
-}
-
-@media (min-width: 596px) {
-  .portfolio-container main .intro-wrapper > .intro-name {
-    font-size: 50px;
-    line-height: 2.5rem;
-  }
-}
-
-@media (max-width: 596px) {
-  .portfolio-description {
-    position: absolute;
-  }
+@media (min-width: 560px) {
   .portfolio-item {
     display: flex;
-    justify-content: center;
   }
-  .portfolio-page .portfolio-item h1 {
-    font-size: 25px;
-    text-align: center;
-  }
-  .portfolio-page .portfolio-item p {
-    display: none;
-  }
+
   .portfolio-item img {
-    margin-top: 88px;
-    margin-left: 4px;
-    height: 66%;
-  }
-  .about-page .about-wrapper .about-content p {
-    line-height: 35px;
-  }
-}
-
-@media (min-width: 647px) {
-  .portfolio-container main .intro-wrapper > .intro-name {
-    font-size: 55px;
-    line-height: 2.5rem;
-  }
-}
-
-@media (max-width: 647px) {
-  .portfolio-page .portfolio-item h1 {
-    font-size: 25px;
-  }
-  .portfolio-page .portfolio-item p {
-    font-size: 13px;
-    line-height: 20px;
-  }
-}
-
-@media (max-width: 660px) {
-  .portfolio-page .portfolio-item h1 {
-    font-size: 25px;
+    margin-left: 0px;
   }
 
-  .portfolio-page .portfolio-item p {
+  .portfolio-item p {
+    display: block;
     font-size: 15px;
-  }
-}
-
-@media (max-width: 730px) {
-  .portfolio-item p {
-    margin-top: -62px;
     line-height: 30px;
-    font-size: 17px;
   }
-  .portfolio-item h1 {
+
+  .portfolio-description {
+    padding: 8px;
+  }
+
+  .portfolio-description h1 {
     text-align: left;
-    padding: 20px;
-    font-size: 30px;
   }
 }
 
-@media (max-width: 767px) {
-  .portfolio-item p {
-    margin-top: -48px;
-    line-height: 25px;
-    font-size: 17px;
-  }
-  .portfolio-item h1 {
-    text-align: left;
-    padding: 20px;
+@media (min-width: 734px) {
+  .quotes {
+    padding-left: 150px;
   }
 }
 
 @media (min-width: 768px) {
-  .portfolio-item p {
-    margin-top: -48px;
-    line-height: 30px;
+  .portfolio-item img {
+    height: 100%;
   }
-  .portfolio-item h1 {
-    text-align: left;
-    padding: 20px;
+
+  .main-buzz {
+    padding-bottom: 0px;
   }
 }
 
-@media (min-width: 1440px) {
-  .portfolio-item p {
-    display: block;
+@media (min-width: 945px) {
+  .quotes {
+    padding-left: 200px;
   }
-} */
+  .portfolio-description {
+    padding-right: 0px;
+  }
+}
