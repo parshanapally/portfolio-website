@@ -12,8 +12,12 @@ class App extends Component {
     return (
       <Router>
         <main>
-          <Route exact path="/" component={Portfolio} />
-          <Route exact path="/bridging-digital-divide" component={FirstItem} />
+          <Route exact path="/portfolio-website/" component={Portfolio} />
+          <Route
+            exact
+            path="/portfolio-website/bridging-digital-divide"
+            component={FirstItem}
+          />
           <Route exact path="/rewards" component={SecondItem} />
           <Route exact path="/to-do-app" component={ThirdItem} />
           <Route exact path="/tech-app" component={FourthItem} />

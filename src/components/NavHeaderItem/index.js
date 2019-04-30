@@ -7,7 +7,7 @@ const NavHeaderItem = () => {
   return (
     <nav className="nav-header-item">
       <div className="menu">
-        <Link to="/" alt="about">
+        <Link to="/portfolio-website/" alt="about">
           <div className="menu-item">
             <MdKeyboardArrowLeft />
           </div>
