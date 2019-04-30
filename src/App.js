@@ -17,11 +17,7 @@ class App extends Component {
     return (
       <Router>
         <main>
-          <Route
-            exact
-            path={process.env.PUBLIC_URL + "/portfolio-website/"}
-            component={Portfolio}
-          />
+          <Route exact path={process.env.PUBLIC_URL} component={Portfolio} />
           <Route exact path="/bridging-digital-divide" component={FirstItem} />
           <Route exact path="/rewards" component={SecondItem} />
           <Route exact path="/to-do-app" component={ThirdItem} />
