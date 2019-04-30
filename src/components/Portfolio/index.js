@@ -9,7 +9,7 @@ import NavHeader from "../NavHeader";
 
 class Portfolio extends Component {
   handleClick = () => {
-    window.scrollTop(0);
+    window.load().scrollTop(0);
   };
   render() {
     return (
