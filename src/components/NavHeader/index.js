@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const NavHeader = () => {
   return (

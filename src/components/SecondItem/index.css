@@ -4,9 +4,6 @@
   flex-direction: column;
   justify-content: center;
 }
-.second-item {
-  min-height: 500vh;
-}
 
 .center-paragraph {
   max-width: 800px;
@@ -44,6 +41,7 @@
   font-weight: 700;
   line-height: 4rem;
   padding-bottom: 1rem;
+  text-align: center;
   color: #024040;
 }
 
