@@ -19,7 +19,7 @@ class App extends Component {
         <main>
           <Route
             exact
-            path={process.env.PUBLIC_URL + "/portfolio-website"}
+            path={process.env.PUBLIC_URL + "/portfolio-website/"}
             component={Portfolio}
           />
           <Route exact path="/bridging-digital-divide" component={FirstItem} />
