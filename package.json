@@ -2,7 +2,7 @@
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://parshanapally.github.io/portfolio-website/",
+  "homepage": "https://parshanapally.netlify.com",
   "dependencies": {
     "code": "^5.2.4",
     "enzyme": "^3.8.0",

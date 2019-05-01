@@ -7,7 +7,7 @@ const NavHeaderItem = () => {
   return (
     <nav className="nav-header-item">
       <div className="menu">
-        <Link to={process.env.PUBLIC_URL} alt="about">
+        <Link to="/" alt="about">
           <div className="menu-item">
             <MdKeyboardArrowLeft />
           </div>
