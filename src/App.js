@@ -16,7 +16,7 @@ class App extends Component {
           <Route exact path="/bridging-digital-divide" component={FirstItem} />
           <Route exact path="/rewards" component={SecondItem} />
           <Route exact path="/to-do-app" component={ThirdItem} />
-          <Route exact path="/tech-app" component={FourthItem} />
+          <Route exact path="/aquent" component={FourthItem} />
         </main>
       </Router>
     );

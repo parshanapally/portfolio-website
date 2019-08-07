@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaGithub, FaDribbble } from "react-icons/fa";
 import mainBuzz from "../img/main-buzz.png";
 import rewards from "../img/rewards.png";
+import dashboard from '../img/dashboard.png'
 import quote from "../img/main-quote.png";
 import NavHeader from "../NavHeader";
 
@@ -37,6 +38,22 @@ class Portfolio extends Component {
 
         <div className="portfolio-page" id="portfolio">
           <h1>Portfolio</h1>
+          <Link to="/aquent" onClick={this.handleClick}>
+          <div className="portfolio-item">
+            {" "}
+            <div className="portfolio-description">
+              {" "}
+              <h1>Aquent It Solutions</h1>
+              <p>
+                An web app that provides an employee directory that provides direct communication at any location.{" "}
+              </p>
+            </div>
+            <img src={dashboard} alt="main-buzz" className="main-buzz" />
+          </div>
+        </Link>
+
+
+
           <Link to="/bridging-digital-divide" onClick={this.handleClick}>
             <div className="portfolio-item">
               {" "}
