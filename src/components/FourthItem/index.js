@@ -29,13 +29,13 @@ const FourthItem = () => {
 
           <h2>Interviewing</h2>
           <p>After interviewing employees about the employee directory app, I asked what are some important features that would help improve their productivity on a daily basis.
-           Majority of employees wanted to be reminded if they had an important meeting or events. </p>
+           Majority of employees wanted to be reminded if they had important meetings or events. </p>
 
            <h2>Prototyping</h2>
            <p>In order to solve the communication through Aquent employees, I thought it would be essential to create a dashboard for each employee that displays
             a calendar and the option to create push notifications to the phone for important events. The recommendation section was created in order to promote 
-            communication outside of work. If people are on their lunch break, they can look at what their employees recommended on what places to eat. Aquent 
-            employees will also receive important updates of what is happening in Aquent in the news section.</p>
+            communication outside of work. If people are on their lunch break, they can look at employees recommendedations on what places to eat. Aquent 
+            employees will also receive important updates of Aquent in the news section.</p>
               <img src={dashboard} className="responsive"></img>
               <img src={interest} className="responsive"></img>
               <img src={settings} className="responsive"></img>
@@ -48,9 +48,9 @@ const FourthItem = () => {
             
 
             <h2>Testing</h2>
-            <p>In order to understand if the employee’s goals were met, I designed an interactive prototype and created usability tests. Two important factors that 
-            came out of these tests, the icons on the mobile screen were confusing to understand what they represent. It would be easier to remove all of the icons
-             together and replace it with words with a sliding navigation.</p>
+            <p>In order to understand if the employee’s goals were met, I designed an interactive prototype and created usability tests. There were two important factors 
+            that came out of these tests. The icons on the mobile screen confused employees because they did not understand what they represent. It would be easier to 
+            remove all of the icons together and replace it with words with a sliding navigation.</p>
 
              <h2>Conclusion</h2>
              <p>The employee directory app was a success when it came to providing contact information, however integrating google calendar and Slack were not feasible 
