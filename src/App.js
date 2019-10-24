@@ -6,6 +6,7 @@ import FirstItem from "./components/FirstItem/index";
 import SecondItem from "./components/SecondItem/index";
 import ThirdItem from "./components/ThirdItem/index";
 import FourthItem from "./components/FourthItem/index";
+import FifthItem from './components/FifthItem/index'
 
 class App extends Component {
   render() {
@@ -17,6 +18,8 @@ class App extends Component {
           <Route exact path="/rewards" component={SecondItem} />
           <Route exact path="/to-do-app" component={ThirdItem} />
           <Route exact path="/aquent" component={FourthItem} />
+          <Route exact path='/synapsis' component={FifthItem}></Route>
+
         </main>
       </Router>
     );

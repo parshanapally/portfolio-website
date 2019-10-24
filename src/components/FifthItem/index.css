@@ -1,0 +1,94 @@
+.fifth-item main .intro-wrapper {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fifth-item {
+  min-height: 20vh;
+  flex: 0 1 auto;
+  flex-direction: column;
+}
+
+.fifth-item h1 {
+  text-align: center;
+  color: #024040;
+}
+.fifth-item,
+.fifth-item main {
+  display: flex;
+  justify-content: center;
+}
+
+.fifth-item main {
+  flex: 1 0 auto;
+  flex-direction: column;
+  padding: 3.25rem 1.5rem 1rem;
+}
+
+.fifth-item main .intro-wrapper {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fifth-item main .intro-wrapper > .intro-name {
+  font-family: Reem Kufi, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  padding-bottom: 1rem;
+}
+
+.fifth-item.landing-page main .intro-wrapper > .tagline {
+  font-size: 1.375rem;
+  margin: 1.5rem 0;
+  font-weight: 300;
+}
+
+.tagline a {
+ display:flex;
+}
+.tagline p {
+  line-height: 40px;
+}
+
+.buisness-screens img {
+  width: 300px;
+}
+.buisness-screens {
+  padding-left: 5px;
+}
+
+.customer-screens img {
+  width: 300px;
+}
+.customer-screens {
+  padding-left: 5px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+strong {
+  font-size: 15px;
+}
+
+@media (min-width: 320px) {
+  .tagline p {
+    font-size: 20px;
+  }
+  .tagline h2 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .tagline p {
+    padding-right: 1500px;
+  }
+}

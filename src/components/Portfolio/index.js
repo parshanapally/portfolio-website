@@ -38,6 +38,22 @@ class Portfolio extends Component {
 
         <div className="portfolio-page" id="portfolio">
           <h1>Portfolio</h1>
+
+          <Link to="/synapsis" onClick={this.handleClick}>
+          <div className="portfolio-item">
+            {" "}
+            <div className="portfolio-description">
+              {" "}
+              <h1>Synapsis</h1>
+              <p>
+                Redesigning a consulting company's website, built in Wordpress.{" "}
+              </p>
+            </div>
+            <img src={dashboard} alt="synapsis" className="main-buzz" />
+          </div>
+        </Link>
+
+
           <Link to="/aquent" onClick={this.handleClick}>
           <div className="portfolio-item">
             {" "}
@@ -48,7 +64,7 @@ class Portfolio extends Component {
                 An web app that provides an employee directory that provides direct communication at any location.{" "}
               </p>
             </div>
-            <img src={dashboard} alt="main-buzz" className="main-buzz" />
+            <img src={dashboard} alt="aquent" className="main-buzz" />
           </div>
         </Link>
 
