@@ -26,14 +26,14 @@ const FifthItem = () => {
           <div className="tagline">
         
             <div className="center-paragraph">
-            <a href="https://www.synapsisinc.com/" target="_blank"><img src={synapsis} alt="home"  className="responsive"></img></a>
+            <a href="https://www.synapsisinc.com/" target="_blank" ><img src={synapsis} alt="home"  className="responsive" ></img></a>
               {" "}
               <h2>Objective</h2>
               <p>
                
                 Synapsis is an Information Technology Services Provider that provides solutions
                 to ensures clients successes for their business. They are currently located in 
-                Springfield,Chicago, Kansas City and two cities in India Punne and Chennai.
+                Springfield, Chicago, Kansas City and two cities in India Punne and Chennai.
               </p>
               <p>
               Synapsis has a main website built in Wordpress to list all of the services they provide
@@ -43,13 +43,14 @@ const FifthItem = () => {
             <div className="center-paragraph">
               {" "}
               <h2>Iteration</h2>
-              <img src={sypnapsisServices} alt="services" className="responsive" />
+              <p>By keeping the colors, spacing and font consistent, I first began the process by making a branding guide. Then 
+              I made the correction on the website using HTML and CSS.</p>
               <p>
               Each link inside of the Service tab provides a section where it lists into detail what type of services provide. 
               However, this section needed to be redesigned because the lists were not properly aligned with the other lists.
-              To solve this issue I removed the list and made each list a block and adjust the padding based on the content, 
-              however this approach was taking a lot more time so I had to take another approach.
               </p>
+              <img src={sypnapsisServices} alt="services" className="responsive" />
+             
               
               <p>
               In the About section, I was inspired by the “Driven by Our Core Values”, they provided blocks but it also allowed
@@ -64,9 +65,7 @@ const FifthItem = () => {
               {" "}
               <h2>Conclusion</h2>
               <p>
-                The Peoria Innovation Center was satisfied with our findings and
-                believe that this app will help increase online sales for
-                businesses on Main Street.
+                By rebranding the Synapsis website, Synapsis was able to create and maintain a consistent brand.
               </p>
             </div>
           </div>

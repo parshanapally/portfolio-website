@@ -7,6 +7,7 @@ import rewards from "../img/rewards.png";
 import dashboard from '../img/dashboard.png'
 import quote from "../img/main-quote.png";
 import NavHeader from "../NavHeader";
+import synapsisMain from '../img/synapsis-main.png'
 
 class Portfolio extends Component {
   handleClick = () => {
@@ -46,10 +47,10 @@ class Portfolio extends Component {
               {" "}
               <h1>Synapsis</h1>
               <p>
-                Redesigning a consulting company's website, built in Wordpress.{" "}
+                Redesigning a consulting company's website, built in Wordpress, to help branding and consistency.{" "}
               </p>
             </div>
-            <img src={dashboard} alt="synapsis" className="main-buzz" />
+            <img src={synapsisMain} alt="synapsis" className="main-buzz" />
           </div>
         </Link>
 

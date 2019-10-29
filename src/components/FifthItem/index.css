@@ -50,9 +50,17 @@
 
 .tagline a {
  display:flex;
+ 
 }
 .tagline p {
   line-height: 40px;
+}
+
+.tagline a:hover,
+.tagline a:focus {
+  box-shadow: 0 0.8em 1em -0.4em #eaeaea;
+  transform: translateY(-0.8em);
+  transition: 0.5s
 }
 
 .buisness-screens img {
@@ -68,6 +76,7 @@
 .customer-screens {
   padding-left: 5px;
 }
+
 
 .responsive {
   max-width: 100%;
