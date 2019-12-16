@@ -19,17 +19,9 @@ class ContactForm extends React.Component {
                 <input type="email" name="email" required />
           </div>
           <div className="field">
-                <input type="file" name="myfile" id="myfile" placeholder="Upload file"/>
-         </div>
-          <div className="field">
              <label>Message</label>
-            <textarea type="message" name="message" required pattern="\d{10}" />
+            <textarea type="message" name="message"/>
          </div>
-         <div className="field">
-           <div data-netlify-recaptcha="true"></div>
-         </div>
-        
-       
             <button type="submit">Send</button>
          </form>
         )
