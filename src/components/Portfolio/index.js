@@ -8,7 +8,7 @@ import dashboard from '../img/dashboard.png'
 import quote from "../img/main-quote.png";
 import NavHeader from "../NavHeader";
 import synapsisMain from '../img/synapsis-main.png'
-import Form from '../Form/Form copy'
+import Form from '../Form/Form'
 
 
 
