@@ -2,10 +2,12 @@ import React from 'react'
 import './Form.css'
 
 
-class ContactForm extends React.Component {
-    render() {
+
+const ContactForm = () => {
+  
         return (
-         <form method="POST"  name="contactform" data-netlify="true" enctype="application/x-www-form-urlencoded" netlify-honeypot="bot-field" hidden>
+         <form method="POST"  name="contactform" data-netlify="true" enctype="application/x-www-form-urlencoded" >
+         <input type="hidden" name="form-name" value="contact" />
             <div className="field" >
                 <label>First Name</label>
                 <input type="text" name="firstName" id="firstName" required />
@@ -27,6 +29,6 @@ class ContactForm extends React.Component {
         )
     }
    
-}
+
 
 export default ContactForm
