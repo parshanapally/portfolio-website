@@ -8,19 +8,19 @@ class ContactForm extends React.Component {
          <form action="POST" data-netlify="true">
             <div className="field" >
                 <label>First Name</label>
-                <input type="text" name="firstName" required />
+                <input type="text" name="firstName" id="firstName" required />
             </div>
             <div className="field">
                 <label>Last Name</label>
-                <input type="text" name="lastName" required />
+                <input type="text" name="lastName" id="lastName"  required />
             </div>
             <div className="field">
                 <label>Email Address</label>
-                <input type="email" name="email" required />
+                <input type="email" name="email" id="email"   />
           </div>
           <div className="field">
              <label>Message</label>
-            <textarea type="message" name="message"/>
+            <textarea type="message" name="message" id="message"/>
          </div>
             <button type="submit">Send</button>
          </form>
