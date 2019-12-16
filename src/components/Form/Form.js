@@ -5,7 +5,7 @@ import './Form.css'
 class ContactForm extends React.Component {
     render() {
         return (
-         <form action="POST" data-netlify="true" enctype="application/x-www-form-urlencoded">
+         <form method="POST" data-netlify="true" enctype="application/x-www-form-urlencoded">
             <div className="field" >
                 <label>First Name</label>
                 <input type="text" name="firstName" id="firstName" required />
