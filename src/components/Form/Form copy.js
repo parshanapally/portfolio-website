@@ -1,59 +1,58 @@
- // Dependencies
-import React, { Component } from 'react';
-// Externals
-import Field from './Field';
-import Button from './Button';
+import React from 'react'
 
+  const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
 
-class Form extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: '',
-      email: '',
-      message: '',
+  class ContactForm extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = { name: "", email: "", message: "" };
+    }
+
+    /* Here’s the juicy bit for posting the form submission */
+
+    handleSubmit = e => {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact", ...this.state })
+      })
+        .then(() => alert("Success!"))
+        .catch(error => alert(error));
+
+      e.preventDefault();
     };
-    // To ensure 'this' when calling 'this.updateField' refers to Form and not Field, we do:
-    this.updateField = this.updateField.bind(this);
+
+    handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
+    render() {
+      const { name, email, message } = this.state;
+      return (
+        <form onSubmit={this.handleSubmit}>
+          <p>
+            <label>
+              Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <label>
+              Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <label>
+              Message: <textarea name="message" value={message} onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+      );
+    }
   }
 
-  // Field could be 'name', 'email', or 'message'
-  // Value is whatever the user types into the input field.
-  updateField(field, value) {
-    this.setState({ [field]: value });
-  }
-
-  render() {
-    return (
-      <div>
-        {/* Name field */}
-        <Field
-          label="Name"
-          onChange={(event) => this.updateField('name', event.target.value)}
-          value={this.state.name}
-        />
-        {/* Email field */}
-        <Field
-          label="Email"
-          onChange={(event) => this.updateField('email', event.target.value)}
-          value={this.state.email}
-        />
-        {/* Message textarea */}
-        <Field
-          label="Message"
-          onChange={(event) => this.updateField('message', event.target.value)}
-          /* This should be written like 'textarea' */
-          textarea={true}
-          value={this.state.message}
-        />
-        {/* Submit button */}
-        <Button
-          email="parshanap@gmail.com"
-          formValues={this.state}
-        />
-      </div>
-    );
-  }
-}
-
-export default Form;
+  export default ContactForm
