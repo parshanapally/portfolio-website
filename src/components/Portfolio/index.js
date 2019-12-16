@@ -8,6 +8,8 @@ import dashboard from '../img/dashboard.png'
 import quote from "../img/main-quote.png";
 import NavHeader from "../NavHeader";
 import synapsisMain from '../img/synapsis-main.png'
+import Form from '../Form/Form'
+
 
 class Portfolio extends Component {
   handleClick = () => {
@@ -128,10 +130,9 @@ class Portfolio extends Component {
             <div className="contact-content">
               <h1>Contact</h1>
               <p>
-                Feel free to contact me at{" "}
-                <a rel="noopener noreferrer" href="mailto:parshanap@gmail.com">
-                  parshanap@gmail.com
-                </a>
+               
+
+                <Form/>
                 <div className="social-icons">
                   <a
                     target="_blank"
