@@ -7,7 +7,7 @@ const ContactForm = () => {
   
         return (
          <form method="POST"  name="contactform" data-netlify="true" enctype="application/x-www-form-urlencoded" >
-         <input type="hidden" name="form-name" value="contact" />
+         <input type="hidden" name="form-name" value="Contact" />
             <div className="field" >
                 <label>First Name</label>
                 <input type="text" name="firstName" id="firstName" required />
@@ -18,11 +18,11 @@ const ContactForm = () => {
             </div>
             <div className="field">
                 <label>Email Address</label>
-                <input type="email" name="email" id="email"   />
+                <input type="email" name="portfolioemail" id="email"   />
           </div>
           <div className="field">
              <label>Message</label>
-            <textarea type="message" name="message" id="message"/>
+            <textarea type="message" name="portfoliomessage" id="message"/>
          </div>
             <button type="submit">Send</button>
          </form>
