@@ -6,7 +6,7 @@ import './Form.css'
 const ContactForm = () => {
   
         return (
-         <form method="POST"  name="contactform" data-netlify="true"  data-netlify-honeypot="bot-field" enctype="application/x-www-form-urlencoded"  >
+         <form method="POST" action="/thank-you/english.html" name="contactform" data-netlify="true"  data-netlify-honeypot="bot-field" enctype="application/x-www-form-urlencoded"  >
             <input type="hidden" name="form-name" value="contact" />
             <div className="field" >
                 <label>First Name</label>
